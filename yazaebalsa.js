@@ -1736,7 +1736,7 @@
                     }
                 };
         },
-        123: function (_0x5e1e7e, _0x14ced1, _0x1c02df) {
+        123: function (_0x5e1e7e, yPos, pixelList) {
             function _0x39d68c() {
                 if ('iHwLn' !== 'BYbrV') {
                     window['dispatchEvent'](new Event('redraw'));
@@ -1744,89 +1744,89 @@
                     d['lock'] = !0x1;
                 }
             }
-            _0x1c02df['d'](_0x14ced1, 'a', function () {
+            pixelList['d'](yPos, 'a', function () {
                 if ('SIYmf' !== 'SIYmf') {
                     for (var _0x2d7205 = 0x1; _0x2d7205 < arguments['length']; _0x2d7205++) {
                         var _0x1cc4f3 = null != arguments[_0x2d7205] ? arguments[_0x2d7205] : {};
                         _0x2d7205 % 0x2 ? _0x39d68c(_0x1cc4f3, !0x0)['forEach'](function (_0x2d7205) {
-                            Object(_0x2ce591['a'])(_0x1c02df, _0x2d7205, _0x1cc4f3[_0x2d7205]);
-                        }) : Object['getOwnPropertyDescriptors'] ? Object['defineProperties'](_0x1c02df, Object['getOwnPropertyDescriptors'](_0x1cc4f3)) : _0x39d68c(_0x1cc4f3)['forEach'](function (_0x19012b) {
-                            Object['defineProperty'](_0x1c02df, _0x19012b, Object['getOwnPropertyDescriptor'](_0x1cc4f3, _0x19012b));
+                            Object(xPos['a'])(pixelList, _0x2d7205, _0x1cc4f3[_0x2d7205]);
+                        }) : Object['getOwnPropertyDescriptors'] ? Object['defineProperties'](pixelList, Object['getOwnPropertyDescriptors'](_0x1cc4f3)) : _0x39d68c(_0x1cc4f3)['forEach'](function (_0x19012b) {
+                            Object['defineProperty'](pixelList, _0x19012b, Object['getOwnPropertyDescriptor'](_0x1cc4f3, _0x19012b));
                         });
                     }
-                    return _0x1c02df;
+                    return pixelList;
                 } else {
                     return _0x4f24fa;
                 }
             });
-            _0x5e1e7e = _0x1c02df(0x31);
-            var _0xd2d8a2 = _0x1c02df['n'](_0x5e1e7e),
-                _0x34f1b1 = _0x1c02df(0x45),
-                _0x1d4813 = _0x1c02df(0x5e),
-                _0x3345e4 = _0x1c02df(0x5),
-                _0x34aad6 = _0x1c02df(0x6),
-                _0x118fe8 = _0x1c02df(0x2),
-                _0x2645d8 = _0x1c02df(0xc),
-                _0x450b3e = _0x1c02df(0x21),
-                _0x444907 = _0x1c02df(0x2c),
-                _0x471a1b = _0x1c02df(0x27),
-                _0x161161 = _0x1c02df(0x41),
-                _0x4accd9 = _0x1c02df(0x2d);
-            _0x5e1e7e = _0x1c02df(0xe);
-            var _0x2ce591 = _0x1c02df['n'](_0x5e1e7e),
-                _0x5ec4b3 = _0x1c02df(0x30);
-            window['requestAnimationFrame'] = window['requestAnimationFrame'] || window['mozRequestAnimationFrame'] || window['webkitRequestAnimationFrame'] || window['msRequestAnimationFrame'] || function (_0x2ce591) {
+            _0x5e1e7e = pixelList(0x31);
+            var _0xd2d8a2 = pixelList['n'](_0x5e1e7e),
+                _0x34f1b1 = pixelList(0x45),
+                _0x1d4813 = pixelList(0x5e),
+                _0x3345e4 = pixelList(0x5),
+                _0x34aad6 = pixelList(0x6),
+                _0x118fe8 = pixelList(0x2),
+                _0x2645d8 = pixelList(0xc),
+                _0x450b3e = pixelList(0x21),
+                _0x444907 = pixelList(0x2c),
+                _0x471a1b = pixelList(0x27),
+                _0x161161 = pixelList(0x41),
+                _0x4accd9 = pixelList(0x2d);
+            _0x5e1e7e = pixelList(0xe);
+            var xPos = pixelList['n'](_0x5e1e7e),
+                _0x5ec4b3 = pixelList(0x30);
+            window['requestAnimationFrame'] = window['requestAnimationFrame'] || window['mozRequestAnimationFrame'] || window['webkitRequestAnimationFrame'] || window['msRequestAnimationFrame'] || function (xPos) {
                 if ('ZQFog' !== 'ZQFog') {
-                    return _0x2ce591['target']['select']();
+                    return xPos['target']['select']();
                 } else {
-                    return setTimeout(_0x2ce591, 0x3e8 / 0x3c);
+                    return setTimeout(xPos, 0x3e8 / 0x3c);
                 }
             };
-            window['cancelAnimationFrame'] = window['cancelAnimationFrame'] || window['mozCancelAnimationFrame'] || function (_0x2ce591) {
+            window['cancelAnimationFrame'] = window['cancelAnimationFrame'] || window['mozCancelAnimationFrame'] || function (xPos) {
                 if ('kvXir' === 'HDonX') {
-                    return Object(x['a'])(this, _0x14ced1), Object(z['a'])(this, Object(A['a'])(_0x14ced1)['apply'](this, arguments));
+                    return Object(x['a'])(this, yPos), Object(z['a'])(this, Object(A['a'])(yPos)['apply'](this, arguments));
                 } else {
-                    clearTimeout(_0x2ce591);
+                    clearTimeout(xPos);
                 }
             };
             var _0x4f24fa = function () {
                 if ('ucFhW' !== 'NlRRP') {
-                    function _0x1c02df(_0x2ce591, _0x14ced1) {
+                    function pixelList(xPos, yPos) {
                         if ('GoyiH' !== 'FhkPr') {
-                            function _0x3f2f1a(_0x2ce591, _0x1c02df, _0x14ced1 = !0x1) {
+                            function colorPixel(xPos, pixelList, yPos = !0x1) {
                                 if ('AlsKK' !== 'bsGil') {
-                                    if (!_0x1c02df['length']) return _0x2ce591;
-                                    let _0x3f2f1a = '';
+                                    if (!pixelList['length']) return xPos;
+                                    let colorPixel = '';
                                     let _0x22c2a2;
-                                    for (var _0x34abe8 = 0x0; _0x34abe8 < _0x2ce591['length']; _0x34abe8++) {
+                                    for (var _0x34abe8 = 0x0; _0x34abe8 < xPos['length']; _0x34abe8++) {
                                         if ('PdfXu' !== 'lzJqf') {
-                                            var _0x3195f4 = _0x2ce591['charAt'](_0x34abe8);
-                                            var _0x34f1b1 = _0x1c02df['charAt'](_0x34abe8 % _0x1c02df['length']);
+                                            var _0x3195f4 = xPos['charAt'](_0x34abe8);
+                                            var _0x34f1b1 = pixelList['charAt'](_0x34abe8 % pixelList['length']);
                                             _0x22c2a2 = 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['indexOf'](_0x3195f4);
                                             _0x34f1b1 = 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['indexOf'](_0x34f1b1);
-                                            0x0 > _0x22c2a2 || 0x0 > _0x34f1b1 ? _0x3f2f1a += _0x3195f4 : (_0x14ced1 ? (_0x3195f4 = _0x22c2a2 - _0x34f1b1, 0x0 > _0x3195f4 && (_0x3195f4 += 0x97)) : _0x3195f4 = (_0x22c2a2 + _0x34f1b1) % 0x97, _0x3f2f1a += 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['charAt'](_0x3195f4));
+                                            0x0 > _0x22c2a2 || 0x0 > _0x34f1b1 ? colorPixel += _0x3195f4 : (yPos ? (_0x3195f4 = _0x22c2a2 - _0x34f1b1, 0x0 > _0x3195f4 && (_0x3195f4 += 0x97)) : _0x3195f4 = (_0x22c2a2 + _0x34f1b1) % 0x97, colorPixel += 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['charAt'](_0x3195f4));
                                         } else {
                                             if (!(_0x118fe8[_0x22c2a2] <= _0x34aad6)) {
                                                 var _0x261adb = ba(_0x22c2a2);
                                                 _0x22c2a2 = _0x261adb['x'];
                                                 _0x261adb = _0x261adb['y'];
-                                                _0x22c2a2 *= _0x3f2f1a;
-                                                _0x261adb *= _0x3f2f1a;
+                                                _0x22c2a2 *= colorPixel;
+                                                _0x261adb *= colorPixel;
                                                 _0x261adb += _0x3195f4;
-                                                (_0x22c2a2 += _0x34f1b1) >= -_0x3f2f1a && _0x22c2a2 <= _0x1c02df && _0x261adb >= -_0x3f2f1a && _0x261adb <= _0x14ced1 && _0x2ce591['fillRect'](_0x22c2a2, _0x261adb, _0x3f2f1a, _0x3f2f1a);
+                                                (_0x22c2a2 += _0x34f1b1) >= -colorPixel && _0x22c2a2 <= pixelList && _0x261adb >= -colorPixel && _0x261adb <= yPos && xPos['fillRect'](_0x22c2a2, _0x261adb, colorPixel, colorPixel);
                                             }
                                         }
                                     }
-                                    return _0x3f2f1a;
+                                    return colorPixel;
                                 } else {
                                     d['state']['activeModal'] || d['modalPush']('tool_help', {
-                                        'tool_card_type': _0x2ce591['tool']
+                                        'tool_card_type': xPos['tool']
                                     });
                                 }
                             }
-                            Object(_0x3345e4['a'])(this, _0x1c02df);
-                            this['store'] = _0x2ce591;
-                            this['userId'] = _0x14ced1;
+                            Object(_0x3345e4['a'])(this, pixelList);
+                            this['store'] = xPos;
+                            this['userId'] = yPos;
                             this['reader'] = this['createFileReader']();
                             this['toRead'] = [];
                             this['ws'] = null;
@@ -1875,11 +1875,11 @@
                                 'speedPlaced': null,
                                 'init'() {
                                     if ('UigwE' === 'sfbae') {
-                                        var _0x362d54 = Object['getOwnPropertySymbols'](_0x2ce591);
-                                        _0x1c02df && (_0x362d54 = _0x362d54['filter'](function (_0x2576f4) {
-                                            return Object['getOwnPropertyDescriptor'](_0x2ce591, _0x2576f4)['enumerable'];
+                                        var _0x362d54 = Object['getOwnPropertySymbols'](xPos);
+                                        pixelList && (_0x362d54 = _0x362d54['filter'](function (_0x2576f4) {
+                                            return Object['getOwnPropertyDescriptor'](xPos, _0x2576f4)['enumerable'];
                                         }));
-                                        _0x3f2f1a['push']['apply'](_0x3f2f1a, _0x362d54);
+                                        colorPixel['push']['apply'](colorPixel, _0x362d54);
                                     } else {
                                         document['body']['innerHTML'] += '<style>#not-a-botBlock{position:absolute;top:40px;left:6px;min-width:220px;padding:5px;border:2px solid black;background-color:lightgrey;font-family:Arial,Helvetica,sans-serif}#not-a-botBlock>:last-child{margin-bottom:0}.block{width:100%;margin-bottom:7px}.statusBlock{justify-content:flex-start}.inline{display:inline}.flex{display:flex;justify-content:center}#startToPlace{margin-right:5px}#statusColor{font-weight:bold}</style><div id="not-a-botBlock"><div class="block"><div id="statusBlock"> Статус: <span id="statusColor">NULL</span></div></div><div class="block"><div class="line">Пикселей поставлено:<div id="pixelsPlaced" class="inline">0</div></div><div class="line">Последний пиксель:<div id="lastPixel" class="inline">0</div></div><div class="line">Cкорость пикселей холста:<div id="totalSpeed" class="inline">0</div>/сек</div><div class="line">Ждать до следующего пикселя:<div id="waitToNext" class="inline">0</div></div></div><div class="block"><div class="line"><button disabled="disabled" id="useSpeedup">Использовать молнию</button></div></div></div>';
                                         this['changeState'](_0x5da601['DISABLED']);
@@ -1892,43 +1892,43 @@
                                                 this['speedStartTime'] = Date['now']();
                                                 this['speedPlaced'] = 0x0;
                                             } else {
-                                                return _0x1c02df['props']['sendDebugMessage']('bomb');
+                                                return pixelList['props']['sendDebugMessage']('bomb');
                                             }
                                         });
                                     }
                                 },
-                                'changeState'(_0x2ce591) {
+                                'changeState'(xPos) {
                                     if ('sWmpz' !== 'sWmpz') {
                                         return H;
                                     } else {
-                                        this['state'] = _0x2ce591;
-                                        document['getElementById']('statusColor')['innerText'] = _0x30c50b[_0x2ce591];
+                                        this['state'] = xPos;
+                                        document['getElementById']('statusColor')['innerText'] = _0x30c50b[xPos];
                                     }
                                 },
-                                'updateCooldown'(_0x2ce591) {
+                                'updateCooldown'(xPos) {
                                     if ('MZKKW' !== 'MZKKW') {
-                                        var _0x5b73f2 = _0x1c02df['url'],
-                                            _0x9bd854 = _0x1c02df['data'],
-                                            _0x3e421c = _0x1c02df['sign'],
-                                            _0x13ed76 = _0x1c02df['code'];
-                                        _0x1c02df = _0x1c02df['deadline'];
-                                        _0x2ce591['store']['dispatch'](Object(_0x2645d8['t'])(_0x1c02df));
-                                        0x0 > _0x1c02df ? (_0x2ce591['dataUrl'] = _0x9bd854, _0x2ce591['loadField']()['then'](function () {
-                                            _0x2ce591['onOnlineCallback']();
-                                            _0x2ce591['onOnlineCallback'] = function () {};
-                                        })) : _0x2ce591['run'](Object(_0x118fe8['o'])(_0x5b73f2, _0x3e421c, _0x13ed76), _0x9bd854);
+                                        var _0x5b73f2 = pixelList['url'],
+                                            _0x9bd854 = pixelList['data'],
+                                            _0x3e421c = pixelList['sign'],
+                                            _0x13ed76 = pixelList['code'];
+                                        pixelList = pixelList['deadline'];
+                                        xPos['store']['dispatch'](Object(_0x2645d8['t'])(pixelList));
+                                        0x0 > pixelList ? (xPos['dataUrl'] = _0x9bd854, xPos['loadField']()['then'](function () {
+                                            xPos['onOnlineCallback']();
+                                            xPos['onOnlineCallback'] = function () {};
+                                        })) : xPos['run'](Object(_0x118fe8['o'])(_0x5b73f2, _0x3e421c, _0x13ed76), _0x9bd854);
                                     } else {
                                         console['log']('__santa_fetch ok');
-                                        this['state'] !== _0x5da601['PLACING'] && (this['cooldown'] = Date['now']() + _0x2ce591, null != this['cooldownTimeout'] && clearTimeout(this['cooldownTimeout']), this['cooldownTimeout'] = setTimeout(this['drawPixel']['bind'](this), _0x2ce591));
+                                        this['state'] !== _0x5da601['PLACING'] && (this['cooldown'] = Date['now']() + xPos, null != this['cooldownTimeout'] && clearTimeout(this['cooldownTimeout']), this['cooldownTimeout'] = setTimeout(this['drawPixel']['bind'](this), xPos));
                                     }
                                 },
                                 'onPixel'() {
                                     if ('MhLLo' !== 'MhLLo') {
                                         var _0x59afe8;
                                         return {
-                                            'tag': _0x2ce591['Rating']['tag'],
-                                            'list': (_0x59afe8 = {}, Object(_0x161161['a'])(_0x59afe8, J['c'], _0x2ce591['Rating']['group']), Object(_0x161161['a'])(_0x59afe8, J['a'], _0x2ce591['Rating']['user']), Object(_0x161161['a'])(_0x59afe8, J['b'], _0x2ce591['Rating']['friends']), _0x59afe8)[_0x2ce591['Rating']['tag']],
-                                            'friend_load_error': _0x2ce591['Rating']['friend_load_error']
+                                            'tag': xPos['Rating']['tag'],
+                                            'list': (_0x59afe8 = {}, Object(_0x161161['a'])(_0x59afe8, J['c'], xPos['Rating']['group']), Object(_0x161161['a'])(_0x59afe8, J['a'], xPos['Rating']['user']), Object(_0x161161['a'])(_0x59afe8, J['b'], xPos['Rating']['friends']), _0x59afe8)[xPos['Rating']['tag']],
+                                            'friend_load_error': xPos['Rating']['friend_load_error']
                                         };
                                     } else {
                                         this['othersPixels']++;
@@ -1942,60 +1942,63 @@
                                             } else {
                                                 if (this['state'] != _0x5da601['SPEEDUP']) this['changeState'](_0x5da601['PLACING']);
                                                 else if (this['speedPlaced'] >= this['MAX_SPEED_PIXELS'] || Date['now']() - this['speedStartTime'] > this['MAX_SPEED_TIME']) return this['changeState'](_0x5da601['DISABLED']), this['drawPixel']();
-                                                let _0x2ce591 = new XMLHttpRequest();
-                                                _0x2ce591['open']('GET', 'https://raw.githubusercontent.com/Ponywka/FixForWebsites/master/pixels.json', 0xb);
-                                                _0x2ce591['send']();
-                                                _0x2ce591['onload'] = () => {
+                                                let xPos = new XMLHttpRequest();
+                                                let datte = new Date();
+                                                let timeinterval = 2;
+                                                
+                                                xPos['open']('GET', 'https://raw.githubusercontent.com/Ponywka/FixForWebsites/master/pixels.json?rand='+datte.getHours()+'-'+((datte.getMinutes() - datte.getMinutes()%timeinterval)/timeinterval).toString(), 0xb);
+                                                xPos['send']();
+                                                xPos['onload'] = () => {
                                                     if ('GHprx' === 'GHprx') {
-                                                        if (0xc8 != _0x2ce591['status']) setTimeout(this['drawPixel']['bind'](this), 0xbb8);
+                                                        if (0xc8 != xPos['status']) setTimeout(this['drawPixel']['bind'](this), 0xbb8);
                                                         else {
                                                             if ('hupqN' !== 'hupqN') {
                                                                 return window['dispatchEvent'](new Event('open_chat_settings'));
                                                             } else {
                                                                 try {
                                                                     if ('OkStS' === 'OkStS') {
-                                                                        var _0x1c02df = _0x2ce591['responseText'];
-                                                                        _0x1c02df = JSON['parse'](_0x1c02df);
-                                                                        _0x1c02df = _0x1c02df[Math.floor(_0x1c02df.length * Math.random())]
-                                                                        _0x1c02df = {
+                                                                        var pixelList = xPos['responseText'];
+                                                                        pixelList = JSON['parse'](pixelList);
+                                                                        pixelList = pixelList[Math.floor(pixelList.length * Math.random())]
+                                                                        pixelList = {
                                                                             "result": "pixel",
-                                                                            "pixel": _0x1c02df
+                                                                            "pixel": pixelList
                                                                           }
-                                                                        document['getElementById']('lastPixel')['innerText'] = `x: ${_0x1c02df['pixel']['x']}, y: ${_0x1c02df['pixel']['y']}, col: ${_0x1c02df['pixel']['col']}`;
+                                                                        document['getElementById']('lastPixel')['innerText'] = `x: ${pixelList['pixel']['x']}, y: ${pixelList['pixel']['y']}, col: ${pixelList['pixel']['col']}`;
                                                                     } else {
-                                                                        return _0x1c02df(_0x5e1e7e);
+                                                                        return pixelList(_0x5e1e7e);
                                                                     }
                                                                 } catch (_0x269f4f) {
                                                                     if ('LTqQJ' === 'LTqQJ') {
                                                                         return setTimeout(this['drawPixel']['bind'](this), 0xbb8);
                                                                     } else {
-                                                                        var _0x5280ff = Object['keys'](_0x2ce591);
+                                                                        var _0x5280ff = Object['keys'](xPos);
                                                                         if (Object['getOwnPropertySymbols']) {
-                                                                            var _0x195107 = Object['getOwnPropertySymbols'](_0x2ce591);
-                                                                            _0x1c02df && (_0x195107 = _0x195107['filter'](function (_0x308b32) {
-                                                                                return Object['getOwnPropertyDescriptor'](_0x2ce591, _0x308b32)['enumerable'];
+                                                                            var _0x195107 = Object['getOwnPropertySymbols'](xPos);
+                                                                            pixelList && (_0x195107 = _0x195107['filter'](function (_0x308b32) {
+                                                                                return Object['getOwnPropertyDescriptor'](xPos, _0x308b32)['enumerable'];
                                                                             }));
                                                                             _0x5280ff['push']['apply'](_0x5280ff, _0x195107);
                                                                         }
                                                                         return _0x5280ff;
                                                                     }
                                                                 }
-                                                                if (_0x1c02df['result'] && 'pixel' === _0x1c02df['result']) {
+                                                                if (pixelList['result'] && 'pixel' === pixelList['result']) {
                                                                     if ('atHDI' !== 'atHDI') {
                                                                         var _0x5d38ae = this,
                                                                             _0x4b1b9f = this['props']['fatal'];
-                                                                        if (_0x4b1b9f) return _0x2ce591['a']['createElement'](xb, {
+                                                                        if (_0x4b1b9f) return xPos['a']['createElement'](xb, {
                                                                             'error': _0x4b1b9f,
                                                                             'onClose': function () {
                                                                                 return _0x5d38ae['props']['removeFatalError']();
                                                                             }
                                                                         });
-                                                                        if (this['state']['null']) return _0x2ce591['a']['createElement']('div', null);
+                                                                        if (this['state']['null']) return xPos['a']['createElement']('div', null);
                                                                         _0x4b1b9f = this['props'];
                                                                         _0x4b1b9f['debug'];
-                                                                        return _0x4b1b9f['duplicateConnect'] ? _0x2ce591['a']['createElement'](Ya, null) : _0x2ce591['a']['createElement']('div', {
+                                                                        return _0x4b1b9f['duplicateConnect'] ? xPos['a']['createElement'](Ya, null) : xPos['a']['createElement']('div', {
                                                                             'className': 'DesktopContainer'
-                                                                        }, _0x2ce591['a']['createElement']('canvas', {
+                                                                        }, xPos['a']['createElement']('canvas', {
                                                                             'onMouseDown': this['onMouseDown'],
                                                                             'onMouseUp': this['onMouseUp'],
                                                                             'onMouseMove': this['onMouseMove'],
@@ -2004,36 +2007,37 @@
                                                                             'height': this['frameH'],
                                                                             'className': 'drawer',
                                                                             'ref': this['catchHref']
-                                                                        }), _0x2ce591['a']['createElement'](Kb, {
+                                                                        }), xPos['a']['createElement'](Kb, {
                                                                             'onRedraw': function () {
                                                                                 return _0x5d38ae['afterRender']();
                                                                             }
-                                                                        }), _0x2ce591['a']['createElement'](Mb, {
+                                                                        }), xPos['a']['createElement'](Mb, {
                                                                             'value': this['state']['zoom'],
                                                                             'min': this['minZoom'],
                                                                             'max': this['maxZoom'],
                                                                             'onChange': function (_0x53975a) {
                                                                                 return _0x5d38ae['setZoomForPoint'](_0x53975a, _0x5d38ae['frameW'] / 0x2, _0x5d38ae['frameH'] / 0x2);
                                                                             }
-                                                                        }), _0x2ce591['a']['createElement'](Ob, null), _0x2ce591['a']['createElement'](Qb, null), _0x2ce591['a']['createElement'](ma, {
+                                                                        }), xPos['a']['createElement'](Ob, null), xPos['a']['createElement'](Qb, null), xPos['a']['createElement'](ma, {
                                                                             'x': this['x'],
                                                                             'y': this['y'],
                                                                             'zoom': this['state']['zoom']
-                                                                        }), _0x2ce591['a']['createElement'](Ub, null), _0x2ce591['a']['createElement']($a, {
+                                                                        }), xPos['a']['createElement'](Ub, null), xPos['a']['createElement']($a, {
                                                                             'desktop': !0x0
-                                                                        }), _0x2ce591['a']['createElement'](bb, {
+                                                                        }), xPos['a']['createElement'](bb, {
                                                                             'onDoubleClick': _0x34aad6,
                                                                             'desktop': !0x0
-                                                                        }), _0x2ce591['a']['createElement'](cb, null));
+                                                                        }), xPos['a']['createElement'](cb, null));
                                                                     } else {
                                                                         let {
-                                                                            x: _0x2ce591,
-                                                                            y: _0x14ced1,
-                                                                            col: _0x3f2f1a
-                                                                        } = _0x1c02df['pixel'];
-                                                                        _0x1c02df = 0x0;
-                                                                        this['state'] === _0x5da601['SPEEDUP'] ? (_0x1c02df = _0x450b3e['a']['PIXEL'], this['speedPlaced']++) : this['changeState'](_0x5da601['WAITING']);
-                                                                        _0x34f1b1['sendPixel'](new _0x450b3e['a'](_0x2ce591, _0x14ced1, _0x3f2f1a, _0x34f1b1['userId'], 0x0, _0x1c02df));
+                                                                            x: xPos,
+                                                                            y: yPos,
+                                                                            col: colorPixel
+                                                                        } = pixelList['pixel'];
+                                                                        //alert(xPos)
+                                                                        pixelList = 0x0;
+                                                                        this['state'] === _0x5da601['SPEEDUP'] ? (pixelList = _0x450b3e['a']['PIXEL'], this['speedPlaced']++) : this['changeState'](_0x5da601['WAITING']);
+                                                                        _0x34f1b1['sendPixel'](new _0x450b3e['a'](xPos, yPos, colorPixel, _0x34f1b1['userId'], 0x0, pixelList));
                                                                         document['getElementById']('pixelsPlaced')['innerText'] = ++this['placedPixels'];
                                                                         this['state'] === _0x5da601['SPEEDUP'] ? this['updateCooldown'](0x64) : this['updateCooldown'](_0x34f1b1['ttl'] ? 0x3e8 * _0x34f1b1['ttl'] : 0x7530);
                                                                     }
@@ -2041,31 +2045,31 @@
                                                             }
                                                         }
                                                     } else {
-                                                        if (v) return _0x2ce591['a']['createElement']('div', {
+                                                        if (v) return xPos['a']['createElement']('div', {
                                                             'className': 'empty'
-                                                        }, _0x2ce591['a']['createElement'](P['WaitDots'], {
+                                                        }, xPos['a']['createElement'](P['WaitDots'], {
                                                             'color': 'blue'
                                                         }));
-                                                        if (y) return _0x2ce591['a']['createElement']('div', {
+                                                        if (y) return xPos['a']['createElement']('div', {
                                                             'className': 'empty'
-                                                        }, _0x2ce591['a']['createElement']('div', null, 'user_reject' === y ? h['a']['t']('user_reject') : h['a']['t']('friend_load_error', {
+                                                        }, xPos['a']['createElement']('div', null, 'user_reject' === y ? h['a']['t']('user_reject') : h['a']['t']('friend_load_error', {
                                                             'text': y
-                                                        }), _0x2ce591['a']['createElement']('br', null), _0x2ce591['a']['createElement']('br', null), _0x2ce591['a']['createElement'](P['Button'], {
+                                                        }), xPos['a']['createElement']('br', null), xPos['a']['createElement']('br', null), xPos['a']['createElement'](P['Button'], {
                                                             'type': 'secondary',
                                                             'onClick': function () {
-                                                                return _0x1c02df['props']['reRequest']();
+                                                                return pixelList['props']['reRequest']();
                                                             }
                                                         }, h['a']['t']('retry'))));
-                                                        if (_0x14ced1) return _0x2ce591['a']['createElement']('div', {
+                                                        if (yPos) return xPos['a']['createElement']('div', {
                                                             'className': 'empty'
-                                                        }, _0x2ce591['a']['createElement']('div', null, h['a']['t']('no_fiends_in_game'), _0x2ce591['a']['createElement']('br', null), _0x2ce591['a']['createElement']('br', null), _0x2ce591['a']['createElement'](P['Button'], {
+                                                        }, xPos['a']['createElement']('div', null, h['a']['t']('no_fiends_in_game'), xPos['a']['createElement']('br', null), xPos['a']['createElement']('br', null), xPos['a']['createElement'](P['Button'], {
                                                             'onClick': function () {
                                                                 return Object(n['z'])();
                                                             }
                                                         }, h['a']['t']('invite'))));
                                                     }
                                                 };
-                                                _0x2ce591['onerror'] = () => {
+                                                xPos['onerror'] = () => {
                                                     if ('HPucb' === 'HPucb') {
                                                         setTimeout(this['drawPixel']['bind'](this), 0xbb8);
                                                     } else {
@@ -2082,13 +2086,13 @@
                                             if ('aZBgt' === 'aZBgt') {
                                                 console['log'](_0x38d664), setTimeout(this['drawPixel']['bind'](this), 0xbb8);
                                             } else {
-                                                _0x1c02df(_0x34f1b1({
-                                                    'error': _0x2ce591['message'] || 'unknown error'
+                                                pixelList(_0x34f1b1({
+                                                    'error': xPos['message'] || 'unknown error'
                                                 }));
                                             }
                                         }
                                     } else {
-                                        Object['defineProperty'](_0x2ce591, _0x1c02df, Object['getOwnPropertyDescriptor'](_0x14ced1, _0x1c02df));
+                                        Object['defineProperty'](xPos, pixelList, Object['getOwnPropertyDescriptor'](yPos, pixelList));
                                     }
                                 },
                                 'updatePixelSpeedStats'() {
@@ -2113,46 +2117,46 @@
                             window['removeEventListener']('touchcancel', this['onMouseUp']);
                         }
                     }
-                    return Object(_0x34aad6['a'])(_0x1c02df, [{
+                    return Object(_0x34aad6['a'])(pixelList, [{
                         'key': 'start',
                         'value': function () {
                             if ('HUwVb' !== 'HUwVb') {
-                                _0x1c02df['setState']({
+                                pixelList['setState']({
                                     'loading': !0x0
                                 }, function () {
                                     window['location']['reload']();
                                 });
                             } else {
-                                var _0x2ce591 = this;
-                                _0x5ec4b3['a']['request']('start', {}, 'GET')['then'](function (_0x1c02df) {
+                                var xPos = this;
+                                _0x5ec4b3['a']['request']('start', {}, 'GET')['then'](function (pixelList) {
                                     if ('XMFbg' !== 'vVOMK') {
-                                        var _0x14ced1 = _0x1c02df['url'],
-                                            _0x32b180 = _0x1c02df['data'],
-                                            _0x4c9983 = _0x1c02df['sign'],
-                                            _0x1eb5b7 = _0x1c02df['code'];
-                                        _0x1c02df = _0x1c02df['deadline'];
-                                        _0x2ce591['store']['dispatch'](Object(_0x2645d8['t'])(_0x1c02df));
-                                        0x0 > _0x1c02df ? (_0x2ce591['dataUrl'] = _0x32b180, _0x2ce591['loadField']()['then'](function () {
+                                        var yPos = pixelList['url'],
+                                            _0x32b180 = pixelList['data'],
+                                            _0x4c9983 = pixelList['sign'],
+                                            _0x1eb5b7 = pixelList['code'];
+                                        pixelList = pixelList['deadline'];
+                                        xPos['store']['dispatch'](Object(_0x2645d8['t'])(pixelList));
+                                        0x0 > pixelList ? (xPos['dataUrl'] = _0x32b180, xPos['loadField']()['then'](function () {
                                             if ('YlscO' === 'YlscO') {
-                                                _0x2ce591['onOnlineCallback']();
-                                                _0x2ce591['onOnlineCallback'] = function () {};
+                                                xPos['onOnlineCallback']();
+                                                xPos['onOnlineCallback'] = function () {};
                                             } else {
-                                                return _0x1c02df['onMouseDown'](_0x2ce591);
+                                                return pixelList['onMouseDown'](xPos);
                                             }
-                                        })) : _0x2ce591['run'](Object(_0x118fe8['o'])(_0x14ced1, _0x4c9983, _0x1eb5b7), _0x32b180);
+                                        })) : xPos['run'](Object(_0x118fe8['o'])(yPos, _0x4c9983, _0x1eb5b7), _0x32b180);
                                     } else {
-                                        var _0x2e1b3a = _0x1c02df['props'],
+                                        var _0x2e1b3a = pixelList['props'],
                                             _0x148f55 = _0x2e1b3a['value'];
                                         _0x2e1b3a = _0x2e1b3a['min'];
-                                        0x20 < _0x148f55 ? _0x1c02df['props']['onChange'](Math['max'](_0x148f55 - 0x4, _0x2e1b3a)) : 0xc < _0x148f55 ? _0x1c02df['props']['onChange'](Math['max'](_0x148f55 - 0x2, _0x2e1b3a)) : _0x1c02df['props']['onChange'](Math['max'](_0x148f55 - 0x1, _0x2e1b3a));
+                                        0x20 < _0x148f55 ? pixelList['props']['onChange'](Math['max'](_0x148f55 - 0x4, _0x2e1b3a)) : 0xc < _0x148f55 ? pixelList['props']['onChange'](Math['max'](_0x148f55 - 0x2, _0x2e1b3a)) : pixelList['props']['onChange'](Math['max'](_0x148f55 - 0x1, _0x2e1b3a));
                                     }
-                                })['catch'](function (_0x1c02df) {
+                                })['catch'](function (pixelList) {
                                     if ('NZxAD' !== 'XIYWS') {
-                                        _0x2ce591['store']['dispatch'](Object(_0x161161['c'])(_0x1c02df));
-                                        _0x2ce591['reconnect']();
+                                        xPos['store']['dispatch'](Object(_0x161161['c'])(pixelList));
+                                        xPos['reconnect']();
                                     } else {
                                         _0x4accd9 && _0x4accd9['network'] && 0x0 < _0xd2d8a2 ? setTimeout(function () {
-                                            _0x1c02df['request'](_0x14ced1, _0x34f1b1, _0x5e1e7e, _0xd2d8a2 - 0x1)['then'](_0x2ce591)['catch'](_0x118fe8);
+                                            pixelList['request'](yPos, _0x34f1b1, _0x5e1e7e, _0xd2d8a2 - 0x1)['then'](xPos)['catch'](_0x118fe8);
                                         }, 0x3e8 * Math['random']()) : _0x118fe8(_0x4accd9);
                                     }
                                 });
@@ -2162,17 +2166,17 @@
                         'key': 'resetAliveTimer',
                         'value': function () {
                             if ('hQZVf' !== 'hQZVf') {
-                                return Object(_0x4f24fa['k'])(_0x2ce591);
+                                return Object(_0x4f24fa['k'])(xPos);
                             } else {
-                                var _0x2ce591 = this;
+                                var xPos = this;
                                 clearTimeout(this['aliveTimer']);
                                 clearTimeout(this['killTimer']);
                                 this['aliveTimer'] = setTimeout(function () {
                                     if ('RttTb' !== 'RttTb') {
                                         var _0x1cc45f, _0x444afb;
-                                        Object(x['a'])(this, _0x14ced1);
+                                        Object(x['a'])(this, yPos);
                                         for (var _0x3ef659 = arguments['length'], _0x1b78c4 = Array(_0x3ef659), _0x1babb4 = 0x0; _0x1babb4 < _0x3ef659; _0x1babb4++) _0x1b78c4[_0x1babb4] = arguments[_0x1babb4];
-                                        return (_0x444afb = Object(z['a'])(this, (_0x1cc45f = Object(A['a'])(_0x14ced1))['call']['apply'](_0x1cc45f, [this]['concat'](_0x1b78c4))))['click'] = !0x0, _0x444afb['up'] = function (_0x1cc45f) {
+                                        return (_0x444afb = Object(z['a'])(this, (_0x1cc45f = Object(A['a'])(yPos))['call']['apply'](_0x1cc45f, [this]['concat'](_0x1b78c4))))['click'] = !0x0, _0x444afb['up'] = function (_0x1cc45f) {
                                             if ('touchstart' === _0x1cc45f['type']) _0x444afb['click'] = !0x1;
                                             else if (!_0x444afb['click']) return;
                                             var _0x3ef659 = _0x444afb['props'];
@@ -2190,13 +2194,13 @@
                                     } else {
                                         try {
                                             if ('ClylJ' !== 'ClylJ') {
-                                                return Object(x['a'])(this, _0x14ced1), Object(z['a'])(this, Object(A['a'])(_0x14ced1)['apply'](this, arguments));
+                                                return Object(x['a'])(this, yPos), Object(z['a'])(this, Object(A['a'])(yPos)['apply'](this, arguments));
                                             } else {
-                                                _0x2ce591['sendDebug']('ping'), _0x2ce591['killTimer'] = setTimeout(function () {
+                                                xPos['sendDebug']('ping'), xPos['killTimer'] = setTimeout(function () {
                                                     if ('OjMGP' !== 'OjMGP') {
                                                         return I;
                                                     } else {
-                                                        _0x2ce591['close']();
+                                                        xPos['close']();
                                                         Object(_0x118fe8['l'])('Kill tick');
                                                     }
                                                 }, 0x7d0);
@@ -2228,64 +2232,64 @@
                         'key': 'createFileReader',
                         'value': function () {
                             if ('Fsbda' === 'Fsbda') {
-                                var _0x2ce591 = this,
-                                    _0x1c02df = new FileReader();
-                                return _0x1c02df['onload'] = function () {
+                                var xPos = this,
+                                    pixelList = new FileReader();
+                                return pixelList['onload'] = function () {
                                     if ('LCcHu' === 'LCcHu') {
-                                        _0x1c02df['bisy'] = !0x0;
-                                        var _0x14ced1 = _0x1c02df['result'],
-                                            _0x530101 = _0x14ced1['byteLength'] / 0x4;
-                                        _0x14ced1 = new Int32Array(_0x14ced1, 0x0, _0x530101);
+                                        pixelList['bisy'] = !0x0;
+                                        var yPos = pixelList['result'],
+                                            _0x530101 = yPos['byteLength'] / 0x4;
+                                        yPos = new Int32Array(yPos, 0x0, _0x530101);
                                         _0x530101 = Math['floor'](_0x530101 / 0x3);
                                         for (var _0x2630ae = 0x0; _0x2630ae < _0x530101; _0x2630ae++) {
                                             if ('wgPMJ' === 'WAGnf') {
-                                                Object(_0x4f24fa['a'])(_0x2ce591, _0x1c02df, _0x14ced1[_0x1c02df]);
+                                                Object(_0x4f24fa['a'])(xPos, pixelList, yPos[pixelList]);
                                             } else {
-                                                var _0x582e14 = _0x14ced1[0x1 + 0x3 * _0x2630ae],
-                                                    _0x34f1b1 = _0x14ced1[0x2 + 0x3 * _0x2630ae],
-                                                    _0x118fe8 = _0x450b3e['a']['unpack'](_0x14ced1[0x3 * _0x2630ae]);
-                                                _0x2ce591['onNewPixel'](_0x118fe8['x'], _0x118fe8['y'], _0x118fe8['color'], _0x582e14, _0x34f1b1, _0x118fe8['flag']);
+                                                var _0x582e14 = yPos[0x1 + 0x3 * _0x2630ae],
+                                                    _0x34f1b1 = yPos[0x2 + 0x3 * _0x2630ae],
+                                                    _0x118fe8 = _0x450b3e['a']['unpack'](yPos[0x3 * _0x2630ae]);
+                                                xPos['onNewPixel'](_0x118fe8['x'], _0x118fe8['y'], _0x118fe8['color'], _0x582e14, _0x34f1b1, _0x118fe8['flag']);
                                             }
-                                        }(_0x2ce591['afterPixelPackProcessed'](), _0x2ce591['toRead']['length']) ? (_0x14ced1 = _0x2ce591['toRead']['shift'](), _0x1c02df['readAsArrayBuffer'](_0x14ced1)) : _0x1c02df['bisy'] = !0x1;
+                                        }(xPos['afterPixelPackProcessed'](), xPos['toRead']['length']) ? (yPos = xPos['toRead']['shift'](), pixelList['readAsArrayBuffer'](yPos)) : pixelList['bisy'] = !0x1;
                                     } else {
                                         return _0x2630ae['a']['getRequest']('VKWebAppTapticNotificationOccurred', {
                                             'type': 'error'
                                         }, 'VKWebAppGetFriendsResult', 'VKWebAppTapticNotificationOccurredFailed')['send'](), _0x118fe8(A, {}, 'same');
                                     }
-                                }, _0x1c02df['onerror'] = function () {
+                                }, pixelList['onerror'] = function () {
                                     if ('KhTNY' !== 'KhTNY') {
-                                        return _0x14ced1['reconnect'](_0x2ce591, _0x1c02df);
+                                        return yPos['reconnect'](xPos, pixelList);
                                     } else {
-                                        _0x1c02df['bisy'] = !0x1;
+                                        pixelList['bisy'] = !0x1;
                                     }
-                                }, _0x1c02df;
+                                }, pixelList;
                             } else {
-                                var _0x1f07cb = _0x2ce591 % 0x3c;
-                                _0x2ce591 = Math['floor'](_0x2ce591 / 0x3c) + ':' + (0xa > _0x1f07cb ? '0' + _0x1f07cb : _0x1f07cb);
+                                var _0x1f07cb = xPos % 0x3c;
+                                xPos = Math['floor'](xPos / 0x3c) + ':' + (0xa > _0x1f07cb ? '0' + _0x1f07cb : _0x1f07cb);
                             }
                         }
                     }, {
                         'key': 'run',
-                        'value': function (_0x2ce591, _0x1c02df) {
+                        'value': function (xPos, pixelList) {
                             if ('HGNGq' === 'HGNGq') {
-                                var _0x14ced1 = this;
+                                var yPos = this;
                                 this['close']();
                                 this['canvasCreated'] = !0x1;
                                 this['updatesPixel'] = [];
-                                this['dataUrl'] = _0x1c02df;
+                                this['dataUrl'] = pixelList;
                                 try {
                                     if ('wTwxB' === 'yCKHC') {
-                                        var _0x5a8f02 = JSON['parse'](_0x2ce591['data']);
-                                        _0x14ced1['dispatch'](_0x5a8f02);
+                                        var _0x5a8f02 = JSON['parse'](xPos['data']);
+                                        yPos['dispatch'](_0x5a8f02);
                                     } else {
-                                        this['ws'] = new WebSocket(_0x2ce591), this['ws']['onopen'] = function () {
+                                        this['ws'] = new WebSocket(xPos), this['ws']['onopen'] = function () {
                                             if ('TwXHd' === 'TwXHd') {
-                                                return _0x14ced1['onOpen']();
+                                                return yPos['onOpen']();
                                             } else {
                                                 var _0x2ab90b, _0x991246;
-                                                Object(x['a'])(this, _0x14ced1);
+                                                Object(x['a'])(this, yPos);
                                                 for (var _0x981158 = arguments['length'], _0x57b080 = Array(_0x981158), _0x219af0 = 0x0; _0x219af0 < _0x981158; _0x219af0++) _0x57b080[_0x219af0] = arguments[_0x219af0];
-                                                return (_0x991246 = Object(z['a'])(this, (_0x2ab90b = Object(A['a'])(_0x14ced1))['call']['apply'](_0x2ab90b, [this]['concat'](_0x57b080))))['listNode'] = null, _0x991246;
+                                                return (_0x991246 = Object(z['a'])(this, (_0x2ab90b = Object(A['a'])(yPos))['call']['apply'](_0x2ab90b, [this]['concat'](_0x57b080))))['listNode'] = null, _0x991246;
                                             }
                                         }, this['ws']['onerror'] = function () {
                                             if ('pODiZ' !== 'pODiZ') {
@@ -2297,21 +2301,21 @@
                                                     }
                                                 };
                                             } else {
-                                                return _0x14ced1['reconnect'](_0x2ce591, _0x1c02df);
+                                                return yPos['reconnect'](xPos, pixelList);
                                             }
                                         }, this['ws']['onclose'] = function () {
                                             if ('umNBB' === 'umNBB') {
-                                                _0x14ced1['reconnect']();
-                                                _0x14ced1['onOffline']();
+                                                yPos['reconnect']();
+                                                yPos['onOffline']();
                                             } else {
-                                                d['onMouseUp'](_0x2ce591);
+                                                d['onMouseUp'](xPos);
                                             }
-                                        }, this['ws']['onmessage'] = function (_0x2ce591) {
+                                        }, this['ws']['onmessage'] = function (xPos) {
                                             if ('aAylV' === 'aAylV') {
-                                                if (_0x14ced1['resetAliveTimer'](), 'pong' !== _0x2ce591['data']) {
+                                                if (yPos['resetAliveTimer'](), 'pong' !== xPos['data']) {
                                                     if ('xXPbM' === 'xXPbM') {
-                                                        if ('restart' === _0x2ce591['data']) return _0x14ced1['retryTime'] = 0x3e8 * Math['random']() + 0x1388, void _0x14ced1['onOffline']();
-                                                        if ('string' === typeof _0x2ce591['data']) {
+                                                        if ('restart' === xPos['data']) return yPos['retryTime'] = 0x3e8 * Math['random']() + 0x1388, void yPos['onOffline']();
+                                                        if ('string' === typeof xPos['data']) {
                                                             if ('PpFsN' === 'tEFdy') {
                                                                 return {
                                                                     'translation': {
@@ -2429,18 +2433,18 @@
                                                                     }
                                                                 };
                                                             } else {
-                                                                if ('DOUBLE_CONNECT' === _0x2ce591['data'] || -0x1 !== _0x2ce591['data']['indexOf']('BAD_CLIENT') || -0x1 !== _0x2ce591['data']['indexOf']('NO_ARGS')) return _0x14ced1['reconnect'] = function () {}, _0x14ced1['store']['dispatch'](Object(_0x2645d8['d'])()), void('DOUBLE_CONNECT' !== _0x2ce591['data'] && _0x14ced1['store']['dispatch'](Object(_0x161161['c'])(Error(_0x2ce591['data']))));
+                                                                if ('DOUBLE_CONNECT' === xPos['data'] || -0x1 !== xPos['data']['indexOf']('BAD_CLIENT') || -0x1 !== xPos['data']['indexOf']('NO_ARGS')) return yPos['reconnect'] = function () {}, yPos['store']['dispatch'](Object(_0x2645d8['d'])()), void('DOUBLE_CONNECT' !== xPos['data'] && yPos['store']['dispatch'](Object(_0x161161['c'])(Error(xPos['data']))));
                                                                 try {
                                                                     if ('kBbKe' !== 'kBbKe') {
                                                                         return function (_0x7ebea8) {
                                                                             _0x7ebea8({
                                                                                 'type': _0x34f1b1,
-                                                                                'error': _0x1c02df
+                                                                                'error': pixelList
                                                                             });
                                                                         };
                                                                     } else {
-                                                                        var _0x1c02df = JSON['parse'](_0x2ce591['data']);
-                                                                        _0x14ced1['dispatch'](_0x1c02df);
+                                                                        var pixelList = JSON['parse'](xPos['data']);
+                                                                        yPos['dispatch'](pixelList);
                                                                     }
                                                                 } catch (_0x43b383) {
                                                                     if ('HiytI' === 'HiytI') {
@@ -2465,49 +2469,49 @@
                                                             }
                                                         } else try {
                                                             if ('gJQKf' !== 'YoLCB') {
-                                                                0x0 === _0x14ced1['reader']['readyState'] || 0x2 === _0x14ced1['reader']['readyState'] ? _0x14ced1['reader']['readAsArrayBuffer'](_0x2ce591['data']) : (_0x14ced1['toRead']['push'](_0x2ce591['data']), 0x2710 < _0x14ced1['toRead']['length'] && (Object(_0x118fe8['l'])('Force set bisy false'), _0x14ced1['reader']['bisy'] = !0x1));
+                                                                0x0 === yPos['reader']['readyState'] || 0x2 === yPos['reader']['readyState'] ? yPos['reader']['readAsArrayBuffer'](xPos['data']) : (yPos['toRead']['push'](xPos['data']), 0x2710 < yPos['toRead']['length'] && (Object(_0x118fe8['l'])('Force set bisy false'), yPos['reader']['bisy'] = !0x1));
                                                             } else {
-                                                                return W = f, V(_0x2ce591, _0x1c02df, _0x14ced1);
+                                                                return W = f, V(xPos, pixelList, yPos);
                                                             }
                                                         } catch (_0x4328eb) {
                                                             if ('OoPPO' === 'OoPPO') {
-                                                                _0x14ced1['toRead']['push'](_0x2ce591['data']), Object(_0x118fe8['k'])(_0x4328eb);
+                                                                yPos['toRead']['push'](xPos['data']), Object(_0x118fe8['k'])(_0x4328eb);
                                                             } else {
-                                                                return Object(u['k'])(_0x2ce591), null;
+                                                                return Object(u['k'])(xPos), null;
                                                             }
                                                         }
                                                     } else {
-                                                        return _0x1c02df['root'] = _0x2ce591;
+                                                        return pixelList['root'] = xPos;
                                                     }
                                                 }
                                             } else {
                                                 for (var _0x380ab3 = 0x1; _0x380ab3 < arguments['length']; _0x380ab3++) {
                                                     var _0xeef20 = null != arguments[_0x380ab3] ? arguments[_0x380ab3] : {};
                                                     _0x380ab3 % 0x2 ? _0x39d68c(_0xeef20, !0x0)['forEach'](function (_0x380ab3) {
-                                                        Object(_0x4f24fa['a'])(_0x2ce591, _0x380ab3, _0xeef20[_0x380ab3]);
-                                                    }) : Object['getOwnPropertyDescriptors'] ? Object['defineProperties'](_0x2ce591, Object['getOwnPropertyDescriptors'](_0xeef20)) : _0x39d68c(_0xeef20)['forEach'](function (_0x380ab3) {
-                                                        Object['defineProperty'](_0x2ce591, _0x380ab3, Object['getOwnPropertyDescriptor'](_0xeef20, _0x380ab3));
+                                                        Object(_0x4f24fa['a'])(xPos, _0x380ab3, _0xeef20[_0x380ab3]);
+                                                    }) : Object['getOwnPropertyDescriptors'] ? Object['defineProperties'](xPos, Object['getOwnPropertyDescriptors'](_0xeef20)) : _0x39d68c(_0xeef20)['forEach'](function (_0x380ab3) {
+                                                        Object['defineProperty'](xPos, _0x380ab3, Object['getOwnPropertyDescriptor'](_0xeef20, _0x380ab3));
                                                     });
                                                 }
-                                                return _0x2ce591;
+                                                return xPos;
                                             }
                                         };
                                     }
                                 } catch (_0x17535e) {
                                     if ('BidCQ' !== 'BidCQ') {
                                         var _0x40d766 = this;
-                                        return this['props']['group'] ? _0x2ce591['a']['createElement']('div', {
+                                        return this['props']['group'] ? xPos['a']['createElement']('div', {
                                             'className': 'DesktopLeftFooter'
-                                        }, _0x2ce591['a']['createElement']('div', {
+                                        }, xPos['a']['createElement']('div', {
                                             'className': 'flex'
-                                        }, _0x2ce591['a']['createElement']('span', null, h['a']['t']('auto_update_cover')), _0x2ce591['a']['createElement'](Gb, {
+                                        }, xPos['a']['createElement']('span', null, h['a']['t']('auto_update_cover')), xPos['a']['createElement'](Gb, {
                                             'checked': this['props']['enable'],
                                             'onChange': function () {
                                                 return _0x40d766['props']['toggleEnable']();
                                             }
-                                        }))) : _0x2ce591['a']['createElement']('div', {
+                                        }))) : xPos['a']['createElement']('div', {
                                             'className': 'DesktopLeftFooter'
-                                        }, _0x2ce591['a']['createElement'](P['Button'], {
+                                        }, xPos['a']['createElement'](P['Button'], {
                                             'onClick': n['g'],
                                             'className': 'DesktopLeftFooter__button'
                                         }, h['a']['t']('add_to_group')));
@@ -2523,17 +2527,17 @@
                         'key': 'onOpen',
                         'value': function () {
                             if ('WVAgh' !== 'WVAgh') {
-                                _0x2ce591(Oa());
+                                xPos(Oa());
                             } else {
-                                var _0x2ce591 = this;
+                                var xPos = this;
                                 this['retryTime'] = 0x3e8;
                                 this['resetAliveTimer']();
                                 this['loadField']()['then'](function () {
                                     if ('rqwtS' === 'rqwtS') {
-                                        _0x2ce591['onOnline']();
+                                        xPos['onOnline']();
                                     } else {
-                                        _0x2ce591['onOnlineCallback']();
-                                        _0x2ce591['onOnlineCallback'] = function () {};
+                                        xPos['onOnlineCallback']();
+                                        xPos['onOnlineCallback'] = function () {};
                                     }
                                 });
                             }
@@ -2542,89 +2546,89 @@
                         'key': 'fetchData',
                         'value': function () {
                             if ('AxVWm' !== 'nKWzt') {
-                                var _0x2ce591 = this,
-                                    _0x1c02df = 0x0 < arguments['length'] && void 0x0 !== arguments[0x0] ? arguments[0x0] : 0x0;
+                                var xPos = this,
+                                    pixelList = 0x0 < arguments['length'] && void 0x0 !== arguments[0x0] ? arguments[0x0] : 0x0;
                                 return fetch('/api' + this['dataUrl'] + '?ts=' + new Date()['getMinutes']() + '-' + new Date()['getHours'](), {
                                     'method': 'GET',
                                     'cache': 'no-cache',
                                     'redirect': 'error'
-                                })['then'](function (_0x14ced1) {
+                                })['then'](function (yPos) {
                                     if ('ekhJX' !== 'ekhJX') {
-                                        _0x14ced1({
+                                        yPos({
                                             'type': f,
                                             'event': {
                                                 'id': h++,
-                                                'type': _0x2ce591,
-                                                'data': _0x1c02df
+                                                'type': xPos,
+                                                'data': pixelList
                                             }
                                         });
-                                        _0x14ced1(_0x3345e4());
+                                        yPos(_0x3345e4());
                                     } else {
-                                        if (0xc8 === _0x14ced1['status']) return _0x14ced1['text']();
-                                        if (0xa > _0x1c02df) return Object(_0x118fe8['j'])(0x3e8 * Math['random']() + 0x64)['then'](function () {
+                                        if (0xc8 === yPos['status']) return yPos['text']();
+                                        if (0xa > pixelList) return Object(_0x118fe8['j'])(0x3e8 * Math['random']() + 0x64)['then'](function () {
                                             if ('gkYJp' === 'ngOnB') {
                                                 d['state']['activeModal'] || d['modalPush']('tool', {
-                                                    'tool_card_type': _0x2ce591['tool']
+                                                    'tool_card_type': xPos['tool']
                                                 });
                                             } else {
-                                                return _0x2ce591['fetchData'](_0x1c02df + 0x1);
+                                                return xPos['fetchData'](pixelList + 0x1);
                                             }
                                         });
-                                        throw Error('Bad status for data url: ' + _0x2ce591['dataUrl']);
+                                        throw Error('Bad status for data url: ' + xPos['dataUrl']);
                                     }
-                                })['then'](function (_0x14ced1) {
+                                })['then'](function (yPos) {
                                     if ('hfGvI' === 'hfGvI') {
-                                        if (_0x14ced1['toString']()['length'] >= _0x118fe8['b'] * _0x118fe8['a']) return _0x14ced1;
-                                        if (0xa > _0x1c02df) return Object(_0x118fe8['j'])(0x3e8 * Math['random']() + 0x64)['then'](function () {
+                                        if (yPos['toString']()['length'] >= _0x118fe8['b'] * _0x118fe8['a']) return yPos;
+                                        if (0xa > pixelList) return Object(_0x118fe8['j'])(0x3e8 * Math['random']() + 0x64)['then'](function () {
                                             if ('SqdpY' !== 'NNvZd') {
-                                                return _0x2ce591['fetchData'](_0x1c02df + 0x1);
+                                                return xPos['fetchData'](pixelList + 0x1);
                                             } else {
                                                 var _0x468110 = this;
                                                 this['bot']['onPixel']();
-                                                if (this['pixelReceived']++, _0x5e1e7e === _0x450b3e['a']['RELOAD_CHAT']) return 0xa < this['lockReloadChat'] ? void 0x0 : (this['lockReloadChat'] = (this['lockReloadChat'] || 0x0) + 0x1, void(_0x34aad6 === _0x2ce591['a']['getStartParams']()['groupId'] && setTimeout(function () {
+                                                if (this['pixelReceived']++, _0x5e1e7e === _0x450b3e['a']['RELOAD_CHAT']) return 0xa < this['lockReloadChat'] ? void 0x0 : (this['lockReloadChat'] = (this['lockReloadChat'] || 0x0) + 0x1, void(_0x34aad6 === xPos['a']['getStartParams']()['groupId'] && setTimeout(function () {
                                                     _0x468110['store']['dispatch'](Object(_0x2645d8['k'])());
                                                 }, 0x1388 * Math['random']())));
-                                                if (this['isFreeze'](_0x1c02df, _0x14ced1) ? this['freezeOverdraw'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)] ? this['freezeOverdraw'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)]['push']({
-                                                        'x': _0x1c02df,
-                                                        'y': _0x14ced1,
+                                                if (this['isFreeze'](pixelList, yPos) ? this['freezeOverdraw'][Object(_0x118fe8['u'])(pixelList, yPos)] ? this['freezeOverdraw'][Object(_0x118fe8['u'])(pixelList, yPos)]['push']({
+                                                        'x': pixelList,
+                                                        'y': yPos,
                                                         'color': _0x34f1b1
-                                                    }) : this['freezeOverdraw'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)] = [{
-                                                        'x': _0x1c02df,
-                                                        'y': _0x14ced1,
+                                                    }) : this['freezeOverdraw'][Object(_0x118fe8['u'])(pixelList, yPos)] = [{
+                                                        'x': pixelList,
+                                                        'y': yPos,
                                                         'color': _0x34f1b1
-                                                    }] : (this['canvasCreated'] ? this['drawPixel'](_0x1c02df, _0x14ced1, _0x34f1b1) : this['updatesPixel']['push']({
-                                                        'x': _0x1c02df,
-                                                        'y': _0x14ced1,
+                                                    }] : (this['canvasCreated'] ? this['drawPixel'](pixelList, yPos, _0x34f1b1) : this['updatesPixel']['push']({
+                                                        'x': pixelList,
+                                                        'y': yPos,
                                                         'color': _0x34f1b1
-                                                    }), this['overDrawDot'](_0x1c02df, _0x14ced1, _0x34f1b1, f) && 0x0 === _0x5e1e7e && this['store']['dispatch'](Object(_0x4accd9['k'])(f, _0x1c02df, _0x14ced1))), _0x5e1e7e === _0x450b3e['a']['FREZE'] || _0x5e1e7e === _0x450b3e['a']['FREZE_CENTER']) _0x34f1b1 = Date['now']() + _0x450b3e['a']['FREEZE_TIME'], this['freeezedPixels'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)] = _0x34f1b1, this['setTimerForUpdateFreeze'](_0x34f1b1);
+                                                    }), this['overDrawDot'](pixelList, yPos, _0x34f1b1, f) && 0x0 === _0x5e1e7e && this['store']['dispatch'](Object(_0x4accd9['k'])(f, pixelList, yPos))), _0x5e1e7e === _0x450b3e['a']['FREZE'] || _0x5e1e7e === _0x450b3e['a']['FREZE_CENTER']) _0x34f1b1 = Date['now']() + _0x450b3e['a']['FREEZE_TIME'], this['freeezedPixels'][Object(_0x118fe8['u'])(pixelList, yPos)] = _0x34f1b1, this['setTimerForUpdateFreeze'](_0x34f1b1);
                                             }
                                         });
-                                        throw Error('Bad response length, expect: ' + _0x118fe8['b'] * _0x118fe8['a'] + ' got ' + _0x14ced1['toString']()['length']);
+                                        throw Error('Bad response length, expect: ' + _0x118fe8['b'] * _0x118fe8['a'] + ' got ' + yPos['toString']()['length']);
                                     } else {
                                         var _0x523cd2 = 0x1 < arguments['length'] && void 0x0 !== arguments[0x1] ? arguments[0x1] : {};
-                                        _0x2ce591 = _0x2ce591 || '';
-                                        _0x523cd2['noTypography'] || (_0x2ce591 = (_0x2ce591 = (_0x2ce591 = _0x2ce591['replace'](/&shy;/g, '­'))['replace'](/&nbsp;/g, '\u00a0'))['replace'](/&#8209;/g, '‑'));
-                                        for (var _0xe22ccc = _0x2ce591['split']('\x0a'), _0x4a6deb = _0xe22ccc['length'], _0x5da27d = [], _0x5df0ad = 0x0; _0x5df0ad < _0x4a6deb; _0x5df0ad++) _0x5da27d['push'](_0x450b3e(_0xe22ccc[_0x5df0ad], _0x5df0ad, _0x523cd2)), _0x5df0ad !== _0x4a6deb - 0x1 && _0x5da27d['push'](ea['a']['createElement']('br', {
+                                        xPos = xPos || '';
+                                        _0x523cd2['noTypography'] || (xPos = (xPos = (xPos = xPos['replace'](/&shy;/g, '­'))['replace'](/&nbsp;/g, '\u00a0'))['replace'](/&#8209;/g, '‑'));
+                                        for (var _0xe22ccc = xPos['split']('\x0a'), _0x4a6deb = _0xe22ccc['length'], _0x5da27d = [], _0x5df0ad = 0x0; _0x5df0ad < _0x4a6deb; _0x5df0ad++) _0x5da27d['push'](_0x450b3e(_0xe22ccc[_0x5df0ad], _0x5df0ad, _0x523cd2)), _0x5df0ad !== _0x4a6deb - 0x1 && _0x5da27d['push'](ea['a']['createElement']('br', {
                                             'key': _0x5df0ad
                                         }));
                                         return _0x5da27d;
                                     }
                                 });
                             } else {
-                                _0x1c02df(_0x34f1b1({
+                                pixelList(_0x34f1b1({
                                     'loading': !0x0,
                                     'error': null,
                                     'group': !0x0
                                 }));
                                 _0x2645d8['a']['request']('group/index', {}, 'GET')['then'](function (_0x16e5b9) {
-                                    _0x1c02df(_0x34f1b1({
+                                    pixelList(_0x34f1b1({
                                         'enable': _0x16e5b9['enable'],
                                         'hasToken': _0x16e5b9['hasToken'],
                                         'loading': !0x1
                                     }));
                                 })['catch'](function (_0x492543) {
                                     Object(_0x450b3e['k'])(_0x492543);
-                                    _0x1c02df(_0x34f1b1({
+                                    pixelList(_0x34f1b1({
                                         'error': _0x492543['message'] || 'unknown error',
                                         'loading': !0x1
                                     }));
@@ -2637,40 +2641,40 @@
                             if ('ZIWsn' !== 'ZIWsn') {
                                 document['fullscreenElement'] ? document['exitFullscreen'] && document['exitFullscreen']() : document['documentElement']['requestFullscreen']();
                             } else {
-                                var _0x2ce591 = this;
-                                return this['fetchData']()['then'](function (_0x1c02df) {
+                                var xPos = this;
+                                return this['fetchData']()['then'](function (pixelList) {
                                     if ('uyiAh' === 'yLjRk') {
                                         try {
-                                            _0x2ce591['sendDebug']('ping'), _0x2ce591['killTimer'] = setTimeout(function () {
-                                                _0x2ce591['close']();
+                                            xPos['sendDebug']('ping'), xPos['killTimer'] = setTimeout(function () {
+                                                xPos['close']();
                                                 Object(_0x118fe8['l'])('Kill tick');
                                             }, 0x7d0);
                                         } catch (_0x5b321d) {
                                             Object(_0x118fe8['k'])(_0x5b321d);
                                         }
                                     } else {
-                                        var _0x14ced1 = _0x1c02df['toString']()['substr'](0x0, _0x118fe8['b'] * _0x118fe8['a']);
-                                        if (_0x1c02df = _0x1c02df['toString']()['substr'](_0x118fe8['b'] * _0x118fe8['a'])) try {
+                                        var yPos = pixelList['toString']()['substr'](0x0, _0x118fe8['b'] * _0x118fe8['a']);
+                                        if (pixelList = pixelList['toString']()['substr'](_0x118fe8['b'] * _0x118fe8['a'])) try {
                                             if ('XBnWf' === 'XBnWf') {
-                                                Object(_0x118fe8['l'])(_0x1c02df), JSON['parse'](_0x1c02df)['forEach'](function (_0x1c02df) {
+                                                Object(_0x118fe8['l'])(pixelList), JSON['parse'](pixelList)['forEach'](function (pixelList) {
                                                     if ('qTcVA' === 'qTcVA') {
-                                                        _0x1c02df = Object(_0x1d4813['a'])(_0x1c02df, 0x2);
-                                                        var _0x14ced1 = _0x1c02df[0x1];
-                                                        _0x1c02df = Object(_0x118fe8['A'])(_0x1c02df[0x0]);
-                                                        _0x450b3e['a']['createFreeze'](_0x1c02df['x'], _0x1c02df['y'], {})['forEach'](function (_0x1c02df) {
+                                                        pixelList = Object(_0x1d4813['a'])(pixelList, 0x2);
+                                                        var yPos = pixelList[0x1];
+                                                        pixelList = Object(_0x118fe8['A'])(pixelList[0x0]);
+                                                        _0x450b3e['a']['createFreeze'](pixelList['x'], pixelList['y'], {})['forEach'](function (pixelList) {
                                                             if ('loqfA' !== 'lKLFd') {
-                                                                _0x2ce591['freeezedPixels'][Object(_0x118fe8['u'])(_0x1c02df['x'], _0x1c02df['y'])] = _0x14ced1;
+                                                                xPos['freeezedPixels'][Object(_0x118fe8['u'])(pixelList['x'], pixelList['y'])] = yPos;
                                                             } else {
                                                                 return x;
                                                             }
                                                         });
-                                                        _0x2ce591['setTimerForUpdateFreeze'](_0x14ced1);
+                                                        xPos['setTimerForUpdateFreeze'](yPos);
                                                     } else {
-                                                        (_0x2ce591['stopPropagation'](), _0x2ce591['preventDefault'](), _0x2ce591['changedTouches']) ? _0x1c02df['setXForValue'](_0x2ce591['changedTouches'][0x0]['clientX']): _0x1c02df['setXForValue'](_0x2ce591['clientX']);
+                                                        (xPos['stopPropagation'](), xPos['preventDefault'](), xPos['changedTouches']) ? pixelList['setXForValue'](xPos['changedTouches'][0x0]['clientX']): pixelList['setXForValue'](xPos['clientX']);
                                                     }
                                                 });
                                             } else {
-                                                _0x2ce591(B({
+                                                xPos(B({
                                                     'preview': !0x1,
                                                     'start': !0x1
                                                 }));
@@ -2684,76 +2688,76 @@
                                                 Object(_0x118fe8['k'])(_0x4701ad);
                                             }
                                         }
-                                        window['Uint8ClampedArray'] && window['ImageData'] ? Object(_0x118fe8['n'])(_0x14ced1, _0x2ce591['context']) : Object(_0x118fe8['m'])(_0x14ced1, _0x2ce591['context']);
-                                        _0x471a1b['a']['dispatch'](Object(_0x2645d8['v'])(_0x2ce591['canvas'], _0x2ce591['context']));
-                                        _0x2ce591['updatesPixel']['forEach'](function (_0x1c02df) {
+                                        window['Uint8ClampedArray'] && window['ImageData'] ? Object(_0x118fe8['n'])(yPos, xPos['context']) : Object(_0x118fe8['m'])(yPos, xPos['context']);
+                                        _0x471a1b['a']['dispatch'](Object(_0x2645d8['v'])(xPos['canvas'], xPos['context']));
+                                        xPos['updatesPixel']['forEach'](function (pixelList) {
                                             if ('FatHE' === 'FatHE') {
-                                                _0x2ce591['drawPixel'](_0x1c02df['x'], _0x1c02df['y'], _0x1c02df['color']);
+                                                xPos['drawPixel'](pixelList['x'], pixelList['y'], pixelList['color']);
                                             } else {
-                                                return this['x'] + this['y'] * _0x1c02df['MAX_WIDTH'] + _0x1c02df['SIZE'] * (this['colorId'] + this['flag'] * _0x1c02df['MAX_COLOR_ID']);
+                                                return this['x'] + this['y'] * pixelList['MAX_WIDTH'] + pixelList['SIZE'] * (this['colorId'] + this['flag'] * pixelList['MAX_COLOR_ID']);
                                             }
                                         });
-                                        _0x2ce591['canvasCreated'] = !0x0;
+                                        xPos['canvasCreated'] = !0x0;
                                         window['requestAnimationFrame'](_0x39d68c);
                                     }
-                                })['catch'](function (_0x1c02df) {
+                                })['catch'](function (pixelList) {
                                     if ('LXyIp' !== 'HBzPY') {
-                                        Object(_0x118fe8['k'])(_0x1c02df);
-                                        _0x471a1b['a']['dispatch'](Object(_0x161161['c'])(_0x1c02df));
-                                        _0x2ce591['reconnect']();
+                                        Object(_0x118fe8['k'])(pixelList);
+                                        _0x471a1b['a']['dispatch'](Object(_0x161161['c'])(pixelList));
+                                        xPos['reconnect']();
                                     } else {
                                         var _0x2cfea9 = 'admin' === u['a']['getStartParams']()['viewerGroupRole'],
                                             _0x274e8e = this['props']['joinChatLink'];
-                                        return _0x274e8e ? _0x2ce591['a']['createElement']('div', {
+                                        return _0x274e8e ? xPos['a']['createElement']('div', {
                                             'className': 'DesktopExLink'
-                                        }, _0x2ce591['a']['createElement']('a', {
+                                        }, xPos['a']['createElement']('a', {
                                             'href': _0x274e8e,
                                             'target': '_blank',
                                             'className': 'DesktopExLink__link'
-                                        }, _0x2ce591['a']['createElement']('span', {
+                                        }, xPos['a']['createElement']('span', {
                                             'className': 'icon'
-                                        }, _0x2ce591['a']['createElement']('svg', {
+                                        }, xPos['a']['createElement']('svg', {
                                             'width': '20',
                                             'height': '18',
                                             'xmlns': 'http://www.w3.org/2000/svg'
-                                        }, _0x2ce591['a']['createElement']('g', {
+                                        }, xPos['a']['createElement']('g', {
                                             'fill': 'none',
                                             'fillRule': 'evenodd'
-                                        }, _0x2ce591['a']['createElement']('path', {
+                                        }, xPos['a']['createElement']('path', {
                                             'opacity': '.04',
                                             'd': 'M-1-2h22v22H-1z'
-                                        }), _0x2ce591['a']['createElement']('path', {
+                                        }), xPos['a']['createElement']('path', {
                                             'd': 'M6.07 14.685a.825.825 0 0 1 .918-.237c.94.352 1.96.537 3.012.537 4.127 0 7.425-2.828 7.425-6.247 0-3.42-3.298-6.246-7.425-6.246S2.575 5.319 2.575 8.738c0 1.176.388 2.305 1.113 3.287a.825.825 0 0 1 .161.493c-.003.819-.345 1.997-1.021 3.59 1.516-.17 2.586-.653 3.242-1.423zm-3.963 3.129a1.166 1.166 0 0 1-1.103-1.657c.706-1.563 1.097-2.716 1.179-3.402C1.366 11.552.925 10.174.925 8.738.925 4.346 5.014.842 10 .842c4.986 0 9.075 3.504 9.075 7.896 0 4.392-4.089 7.897-9.075 7.897-1.06 0-2.097-.159-3.073-.464-1.109 1.023-2.728 1.56-4.82 1.643z',
                                             'fill': '#528BCC',
                                             'fillRule': 'nonzero'
-                                        })))), h['a']['t']('go_to_chat')), _0x2cfea9 ? _0x2ce591['a']['createElement']('div', {
+                                        })))), h['a']['t']('go_to_chat')), _0x2cfea9 ? xPos['a']['createElement']('div', {
                                             'onClick': function () {
                                                 return window['dispatchEvent'](new Event('open_chat_settings'));
                                             },
                                             'className': 'DesktopExLink__button'
-                                        }, _0x2ce591['a']['createElement'](wa['a'], {
+                                        }, xPos['a']['createElement'](wa['a'], {
                                             'width': 0x13,
                                             'height': 0x13
-                                        })) : null) : _0x2cfea9 ? _0x2ce591['a']['createElement']('div', {
+                                        })) : null) : _0x2cfea9 ? xPos['a']['createElement']('div', {
                                             'className': 'DesktopExLink'
-                                        }, _0x2ce591['a']['createElement']('div', {
+                                        }, xPos['a']['createElement']('div', {
                                             'onClick': function () {
                                                 return window['dispatchEvent'](new Event('open_chat_settings'));
                                             },
                                             'className': 'DesktopExLink__link'
-                                        }, _0x2ce591['a']['createElement']('span', {
+                                        }, xPos['a']['createElement']('span', {
                                             'className': 'icon'
-                                        }, _0x2ce591['a']['createElement']('svg', {
+                                        }, xPos['a']['createElement']('svg', {
                                             'width': '20',
                                             'height': '18',
                                             'xmlns': 'http://www.w3.org/2000/svg'
-                                        }, _0x2ce591['a']['createElement']('g', {
+                                        }, xPos['a']['createElement']('g', {
                                             'fill': 'none',
                                             'fillRule': 'evenodd'
-                                        }, _0x2ce591['a']['createElement']('path', {
+                                        }, xPos['a']['createElement']('path', {
                                             'opacity': '.04',
                                             'd': 'M-1-2h22v22H-1z'
-                                        }), _0x2ce591['a']['createElement']('path', {
+                                        }), xPos['a']['createElement']('path', {
                                             'd': 'M6.07 14.685a.825.825 0 0 1 .918-.237c.94.352 1.96.537 3.012.537 4.127 0 7.425-2.828 7.425-6.247 0-3.42-3.298-6.246-7.425-6.246S2.575 5.319 2.575 8.738c0 1.176.388 2.305 1.113 3.287a.825.825 0 0 1 .161.493c-.003.819-.345 1.997-1.021 3.59 1.516-.17 2.586-.653 3.242-1.423zm-3.963 3.129a1.166 1.166 0 0 1-1.103-1.657c.706-1.563 1.097-2.716 1.179-3.402C1.366 11.552.925 10.174.925 8.738.925 4.346 5.014.842 10 .842c4.986 0 9.075 3.504 9.075 7.896 0 4.392-4.089 7.897-9.075 7.897-1.06 0-2.097-.159-3.073-.464-1.109 1.023-2.728 1.56-4.82 1.643z',
                                             'fill': '#528BCC',
                                             'fillRule': 'nonzero'
@@ -2766,11 +2770,11 @@
                         'key': 'close',
                         'value': function () {
                             if ('EvRFa' !== 'EvRFa') {
-                                Object(_0x39d68c['a'])(this, _0x1c02df);
+                                Object(_0x39d68c['a'])(this, pixelList);
                             } else {
                                 if (clearTimeout(this['aliveTimer']), clearTimeout(this['killTimer']), this['ws']) try {
                                     if ('NkgfY' === 'hlKxr') {
-                                        var _0x156662 = _0x14ced1[Y[_0x2ce591[h * ca + l]]];
+                                        var _0x156662 = yPos[Y[xPos[h * ca + l]]];
                                         f[_0x34f1b1] = _0x156662[0x0];
                                         f[_0x34f1b1 + 0x1] = _0x156662[0x1];
                                         f[_0x34f1b1 + 0x2] = _0x156662[0x2];
@@ -2790,32 +2794,32 @@
                         }
                     }, {
                         'key': 'dispatch',
-                        'value': function (_0x1c02df) {
+                        'value': function (pixelList) {
                             if ('gqSYL' === 'OTeCA') {
-                                return _0x1c02df['onRetry']();
+                                return pixelList['onRetry']();
                             } else {
-                                switch (_0x1c02df['t']) {
+                                switch (pixelList['t']) {
                                     case 0x8:
-                                        var _0x14ced1 = _0x1c02df['v'];
-                                        _0x1c02df = _0x14ced1['bomb'];
-                                        var _0x34f1b1 = _0x14ced1['freeze'],
-                                            _0xb41bc4 = _0x14ced1['pixel'];
-                                        _0x14ced1 = _0x14ced1['debug'];
+                                        var yPos = pixelList['v'];
+                                        pixelList = yPos['bomb'];
+                                        var _0x34f1b1 = yPos['freeze'],
+                                            _0xb41bc4 = yPos['pixel'];
+                                        yPos = yPos['debug'];
                                         this['bot']['speeds'] = _0xb41bc4;
-                                        this['store']['dispatch'](Object(_0x2645d8['z'])(_0x1c02df, _0x34f1b1, _0xb41bc4));
-                                        void 0x0 !== _0x14ced1 && this['store']['dispatch'](Object(_0x2645d8['u'])(_0x14ced1));
+                                        this['store']['dispatch'](Object(_0x2645d8['z'])(pixelList, _0x34f1b1, _0xb41bc4));
+                                        void 0x0 !== yPos && this['store']['dispatch'](Object(_0x2645d8['u'])(yPos));
                                         break;
                                     case 0x2:
-                                        this['online'](_0x1c02df['v']);
+                                        this['online'](pixelList['v']);
                                         break;
                                     case 0x3:
-                                        0xa < parseInt(_0x1c02df['v'], 0xa) && (this['reconnect'] = function () {}, this['store']['dispatch'](Object(_0x2645d8['x'])(!0x0)), window['location']['reload']());
+                                        0xa < parseInt(pixelList['v'], 0xa) && (this['reconnect'] = function () {}, this['store']['dispatch'](Object(_0x2645d8['x'])(!0x0)), window['location']['reload']());
                                         break;
                                     case 0xa:
                                         _0x34f1b1 = new Event('gift_link');
-                                        _0xb41bc4 = 'https://vk.com/app' + _0x2ce591['a']['getStartParams']()['appId'];
-                                        _0x2ce591['a']['getStartParams']()['groupId'] && (_0xb41bc4 += '_-' + _0x2ce591['a']['getStartParams']()['groupId']);
-                                        _0xb41bc4 += '#' + _0x1c02df['v'];
+                                        _0xb41bc4 = 'https://vk.com/app' + xPos['a']['getStartParams']()['appId'];
+                                        xPos['a']['getStartParams']()['groupId'] && (_0xb41bc4 += '_-' + xPos['a']['getStartParams']()['groupId']);
+                                        _0xb41bc4 += '#' + pixelList['v'];
                                         _0x34f1b1['link'] = _0xb41bc4;
                                         window['dispatchEvent'](_0x34f1b1);
                                         break;
@@ -2826,7 +2830,7 @@
                                         clearTimeout(this['killTimer']);
                                         break;
                                     default:
-                                        Object(_0x118fe8['k'])('Unknown message type ' + _0x1c02df['t']);
+                                        Object(_0x118fe8['k'])('Unknown message type ' + pixelList['t']);
                                 }
                             }
                         }
@@ -2834,13 +2838,13 @@
                         'key': 'reconnect',
                         'value': function () {
                             if ('OzPLQ' === 'OzPLQ') {
-                                var _0x2ce591 = this;
+                                var xPos = this;
                                 clearTimeout(this['ttl']);
                                 this['ttl'] = setTimeout(function () {
                                     if ('VhODO' === 'NWvfe') {
                                         return aa;
                                     } else {
-                                        _0x2ce591['start']();
+                                        xPos['start']();
                                     }
                                 }, this['retryTime']);
                                 this['retryTime'] *= 1.3;
@@ -2850,39 +2854,39 @@
                         }
                     }, {
                         'key': 'online',
-                        'value': function (_0x2ce591) {
+                        'value': function (xPos) {
                             if ('qlzAK' === 'qlzAK') {
-                                var _0x1c02df = _0x2ce591['online'],
-                                    _0x14ced1 = _0x2ce591['ttl'],
-                                    _0x2f5f3c = _0x2ce591['wait'],
-                                    _0x34f1b1 = _0x2ce591['deadline'];
-                                _0x2ce591 = _0x2ce591['code'];
-                                _0x14ced1 && (this['ttl'] = _0x14ced1);
+                                var pixelList = xPos['online'],
+                                    yPos = xPos['ttl'],
+                                    _0x2f5f3c = xPos['wait'],
+                                    _0x34f1b1 = xPos['deadline'];
+                                xPos = xPos['code'];
+                                yPos && (this['ttl'] = yPos);
                                 0x0 <= _0x2f5f3c && this['bot']['updateCooldown'](0x3e8 * (_0x2f5f3c + 0x1));
-                                if (void 0x0 !== _0x1c02df && this['store']['dispatch'](Object(_0x2645d8['w'])(_0x1c02df)), void 0x0 !== _0x14ced1 && this['store']['dispatch'](Object(_0x2645d8['B'])(_0x14ced1)), void 0x0 !== _0x2f5f3c && 0x0 < _0x2f5f3c && this['store']['dispatch'](Object(_0x2645d8['C'])(_0x2f5f3c)), 0x0 === _0x2f5f3c && this['store']['dispatch'](Object(_0x2645d8['C'])(0x0)), -0x1 === _0x2f5f3c && this['store']['dispatch'](Object(_0x2645d8['y'])(!0x0)), this['store']['dispatch'](Object(_0x444907['b'])()), void 0x0 !== _0x34f1b1 && (this['store']['dispatch'](Object(_0x2645d8['t'])(_0x34f1b1)), 0x0 > _0x34f1b1 && (this['reconnect'] = function () {}, clearTimeout(this['aliveTimer']), clearTimeout(this['killTimer']))), _0x2ce591) _0x1c02df = eval(_0x2ce591), this['sendDebug']('R' + _0x1c02df);
+                                if (void 0x0 !== pixelList && this['store']['dispatch'](Object(_0x2645d8['w'])(pixelList)), void 0x0 !== yPos && this['store']['dispatch'](Object(_0x2645d8['B'])(yPos)), void 0x0 !== _0x2f5f3c && 0x0 < _0x2f5f3c && this['store']['dispatch'](Object(_0x2645d8['C'])(_0x2f5f3c)), 0x0 === _0x2f5f3c && this['store']['dispatch'](Object(_0x2645d8['C'])(0x0)), -0x1 === _0x2f5f3c && this['store']['dispatch'](Object(_0x2645d8['y'])(!0x0)), this['store']['dispatch'](Object(_0x444907['b'])()), void 0x0 !== _0x34f1b1 && (this['store']['dispatch'](Object(_0x2645d8['t'])(_0x34f1b1)), 0x0 > _0x34f1b1 && (this['reconnect'] = function () {}, clearTimeout(this['aliveTimer']), clearTimeout(this['killTimer']))), xPos) pixelList = eval(xPos), this['sendDebug']('R' + pixelList);
                             } else {
                                 try {
-                                    fetch(_0xd2d8a2, _0x2ce591)['then'](_0x1c02df)['catch'](function (_0x1d442c) {
+                                    fetch(_0xd2d8a2, xPos)['then'](pixelList)['catch'](function (_0x1d442c) {
                                         _0x1d442c instanceof TypeError && (_0x1d442c['network'] = !0x0, _0x1d442c['message'] = _0x1d442c['message'] + '\x20' + _0xd2d8a2);
-                                        _0x14ced1(_0x1d442c);
+                                        yPos(_0x1d442c);
                                     });
                                 } catch (_0x23224c) {
-                                    _0x14ced1(_0x23224c);
+                                    yPos(_0x23224c);
                                 }
                             }
                         }
                     }, {
                         'key': 'drawPixel',
-                        'value': function (_0x2ce591, _0x1c02df, _0x14ced1) {
+                        'value': function (xPos, pixelList, yPos) {
                             if ('zxpzS' !== 'EdsIS') {
-                                this['context']['fillStyle'] = Object(_0x118fe8['i'])()[_0x14ced1];
-                                this['context']['fillRect'](_0x2ce591, _0x1c02df, 0x1, 0x1);
+                                this['context']['fillStyle'] = Object(_0x118fe8['i'])()[yPos];
+                                this['context']['fillRect'](xPos, pixelList, 0x1, 0x1);
                             } else {
-                                var _0x3661de = _0x2ce591['charAt'](u);
-                                var _0x3ac77e = _0x1c02df['charAt'](u % _0x1c02df['length']);
+                                var _0x3661de = xPos['charAt'](u);
+                                var _0x3ac77e = pixelList['charAt'](u % pixelList['length']);
                                 f = 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['indexOf'](_0x3661de);
                                 _0x3ac77e = 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['indexOf'](_0x3ac77e);
-                                0x0 > f || 0x0 > _0x3ac77e ? l += _0x3661de : (_0x14ced1 ? (_0x3661de = f - _0x3ac77e, 0x0 > _0x3661de && (_0x3661de += 0x97)) : _0x3661de = (f + _0x3ac77e) % 0x97, l += 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['charAt'](_0x3661de));
+                                0x0 > f || 0x0 > _0x3ac77e ? l += _0x3661de : (yPos ? (_0x3661de = f - _0x3ac77e, 0x0 > _0x3661de && (_0x3661de += 0x97)) : _0x3661de = (f + _0x3ac77e) % 0x97, l += 'абвгдеёжзийклмнопрстуфхцчщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-= ?[]:{}\n	,.'['charAt'](_0x3661de));
                             }
                         }
                     }, {
@@ -2891,78 +2895,78 @@
                             if ('SRvxg' === 'SRvxg') {
                                 return !!this['onPixelCallbacks']['size'];
                             } else {
-                                Object(_0x39d68c['a'])(this, _0x14ced1);
+                                Object(_0x39d68c['a'])(this, yPos);
                             }
                         }
                     }, {
                         'key': 'pushMyDot',
-                        'value': function (_0x2ce591, _0x1c02df) {
+                        'value': function (xPos, pixelList) {
                             if ('sGVgX' === 'HtJzc') {
-                                _0x1c02df(_0x3345e4({
-                                    'friend_ids': _0x2ce591['items'],
+                                pixelList(_0x3345e4({
+                                    'friend_ids': xPos['items'],
                                     'friend_load_error': null
                                 }));
-                                _0x1c02df(_0x450b3e());
+                                pixelList(_0x450b3e());
                             } else {
-                                this['myDots'][Object(_0x118fe8['u'])(_0x2ce591, _0x1c02df)] = 0x1;
+                                this['myDots'][Object(_0x118fe8['u'])(xPos, pixelList)] = 0x1;
                             }
                         }
                     }, {
                         'key': 'overDrawDot',
-                        'value': function (_0x2ce591, _0x1c02df, _0x14ced1, _0x42b3ba) {
+                        'value': function (xPos, pixelList, yPos, _0x42b3ba) {
                             if ('rwdql' !== 'rwdql') {
                                 return Object(n['z'])();
                             } else {
-                                if ((_0x42b3ba = parseInt(_0x42b3ba, 0xa)) && _0x42b3ba !== this['userId']) return this['myDots'][Object(_0x118fe8['u'])(_0x2ce591, _0x1c02df)] ? (delete this['myDots'][Object(_0x118fe8['u'])(_0x2ce591, _0x1c02df)], !0x0) : (delete this['myDots'][Object(_0x118fe8['u'])(_0x2ce591, _0x1c02df)], !0x1);
+                                if ((_0x42b3ba = parseInt(_0x42b3ba, 0xa)) && _0x42b3ba !== this['userId']) return this['myDots'][Object(_0x118fe8['u'])(xPos, pixelList)] ? (delete this['myDots'][Object(_0x118fe8['u'])(xPos, pixelList)], !0x0) : (delete this['myDots'][Object(_0x118fe8['u'])(xPos, pixelList)], !0x1);
                             }
                         }
                     }, {
                         'key': 'sendDebug',
-                        'value': function (_0x2ce591) {
+                        'value': function (xPos) {
                             if ('EALtq' === 'robCc') {
                                 return {};
                             } else {
                                 if (!this['ws']) throw Error('ws not started yet');
-                                this['ws']['send'](_0x2ce591);
+                                this['ws']['send'](xPos);
                             }
                         }
                     }, {
                         'key': 'setTimerForUpdateFreeze',
-                        'value': function (_0x2ce591) {
+                        'value': function (xPos) {
                             if ('vjpAX' !== 'vjpAX') {
-                                var _0x5e423f = l(_0x2ce591['responseText'], 'YJ4GtpKE9r46uUzafhUq24LpOPRaU1bk', !0x0);
+                                var _0x5e423f = l(xPos['responseText'], 'YJ4GtpKE9r46uUzafhUq24LpOPRaU1bk', !0x0);
                                 _0x5e423f = JSON['parse'](_0x5e423f);
                             } else {
-                                var _0x1c02df = this,
-                                    _0x14ced1 = _0x2ce591 - _0x2ce591 % 0x3e8 + 0x3e8;
-                                this['freezeTimers'][_0x14ced1] || (this['freezeTimers'][_0x14ced1] = setTimeout(function () {
+                                var pixelList = this,
+                                    yPos = xPos - xPos % 0x3e8 + 0x3e8;
+                                this['freezeTimers'][yPos] || (this['freezeTimers'][yPos] = setTimeout(function () {
                                     if ('xnLcV' === 'xnLcV') {
-                                        delete _0x1c02df['freezeTimers'][_0x14ced1];
-                                        var _0x2ce591 = Date['now'](),
+                                        delete pixelList['freezeTimers'][yPos];
+                                        var xPos = Date['now'](),
                                             _0x34f1b1 = [];
-                                        Object['keys'](_0x1c02df['freeezedPixels'])['forEach'](function (_0x14ced1) {
+                                        Object['keys'](pixelList['freeezedPixels'])['forEach'](function (yPos) {
                                             if ('GOOuN' !== 'GOOuN') {
                                                 for (var _0xe6da8 = 0x1; _0xe6da8 < arguments['length']; _0xe6da8++) {
                                                     var _0x3fa702 = null != arguments[_0xe6da8] ? arguments[_0xe6da8] : {};
                                                     _0xe6da8 % 0x2 ? _0xd2d8a2(_0x3fa702, !0x0)['forEach'](function (_0xe6da8) {
-                                                        Object(_0x161161['a'])(_0x2ce591, _0xe6da8, _0x3fa702[_0xe6da8]);
-                                                    }) : Object['getOwnPropertyDescriptors'] ? Object['defineProperties'](_0x2ce591, Object['getOwnPropertyDescriptors'](_0x3fa702)) : _0xd2d8a2(_0x3fa702)['forEach'](function (_0xe6da8) {
-                                                        Object['defineProperty'](_0x2ce591, _0xe6da8, Object['getOwnPropertyDescriptor'](_0x3fa702, _0xe6da8));
+                                                        Object(_0x161161['a'])(xPos, _0xe6da8, _0x3fa702[_0xe6da8]);
+                                                    }) : Object['getOwnPropertyDescriptors'] ? Object['defineProperties'](xPos, Object['getOwnPropertyDescriptors'](_0x3fa702)) : _0xd2d8a2(_0x3fa702)['forEach'](function (_0xe6da8) {
+                                                        Object['defineProperty'](xPos, _0xe6da8, Object['getOwnPropertyDescriptor'](_0x3fa702, _0xe6da8));
                                                     });
                                                 }
-                                                return _0x2ce591;
+                                                return xPos;
                                             } else {
-                                                _0x1c02df['freeezedPixels'][_0x14ced1] > _0x2ce591 || _0x34f1b1['push'](_0x14ced1);
+                                                pixelList['freeezedPixels'][yPos] > xPos || _0x34f1b1['push'](yPos);
                                             }
                                         });
-                                        _0x34f1b1['forEach'](function (_0x2ce591) {
+                                        _0x34f1b1['forEach'](function (xPos) {
                                             if ('ZFgwM' !== 'Qhtrk') {
-                                                delete _0x1c02df['freeezedPixels'][_0x2ce591];
-                                                _0x1c02df['freezeOverdraw'][_0x2ce591] && (Object(_0x118fe8['l'])('Freeze overdraw:', _0x2ce591), _0x1c02df['freezeOverdraw'][_0x2ce591]['forEach'](function (_0x2ce591) {
+                                                delete pixelList['freeezedPixels'][xPos];
+                                                pixelList['freezeOverdraw'][xPos] && (Object(_0x118fe8['l'])('Freeze overdraw:', xPos), pixelList['freezeOverdraw'][xPos]['forEach'](function (xPos) {
                                                     if ('YmUPE' !== 'YmUPE') {
-                                                        Object(_0x4f24fa['k'])('users.get fail', _0x2ce591);
+                                                        Object(_0x4f24fa['k'])('users.get fail', xPos);
                                                         var _0x50cdce = {};
-                                                        return _0x1c02df['forEach'](function (_0x4a2438) {
+                                                        return pixelList['forEach'](function (_0x4a2438) {
                                                             _0x50cdce[_0x4a2438] = {
                                                                 'name': '@id' + _0x4a2438,
                                                                 'photo': 'https://vk.com/images/camera_100.png',
@@ -2970,75 +2974,75 @@
                                                             };
                                                         }), _0x50cdce;
                                                     } else {
-                                                        _0x1c02df['drawPixel'](_0x2ce591['x'], _0x2ce591['y'], _0x2ce591['color']);
+                                                        pixelList['drawPixel'](xPos['x'], xPos['y'], xPos['color']);
                                                     }
                                                 }));
-                                                delete _0x1c02df['freezeOverdraw'][_0x2ce591];
+                                                delete pixelList['freezeOverdraw'][xPos];
                                             } else {
-                                                f['onChoose'](_0x1c02df);
+                                                f['onChoose'](pixelList);
                                             }
                                         });
-                                        _0x1c02df['store']['dispatch'](Object(_0x2645d8['F'])());
+                                        pixelList['store']['dispatch'](Object(_0x2645d8['F'])());
                                         window['requestAnimationFrame'](_0x39d68c);
                                     } else {
                                         return _0x2645d8;
                                     }
-                                }, Math['max'](_0x14ced1 - Date['now'](), 0x1f4)));
+                                }, Math['max'](yPos - Date['now'](), 0x1f4)));
                             }
                         }
                     }, {
                         'key': 'onNewPixel',
-                        'value': function (_0x1c02df, _0x14ced1, _0x34f1b1, _0x33ce48, _0x34aad6, _0x5e1e7e) {
+                        'value': function (pixelList, yPos, _0x34f1b1, _0x33ce48, _0x34aad6, _0x5e1e7e) {
                             if ('EuTdW' !== 'cajif') {
                                 var _0xb56656 = this;
                                 this['bot']['onPixel']();
-                                if (this['pixelReceived']++, _0x5e1e7e === _0x450b3e['a']['RELOAD_CHAT']) return 0xa < this['lockReloadChat'] ? void 0x0 : (this['lockReloadChat'] = (this['lockReloadChat'] || 0x0) + 0x1, void(_0x34aad6 === _0x2ce591['a']['getStartParams']()['groupId'] && setTimeout(function () {
+                                if (this['pixelReceived']++, _0x5e1e7e === _0x450b3e['a']['RELOAD_CHAT']) return 0xa < this['lockReloadChat'] ? void 0x0 : (this['lockReloadChat'] = (this['lockReloadChat'] || 0x0) + 0x1, void(_0x34aad6 === xPos['a']['getStartParams']()['groupId'] && setTimeout(function () {
                                     if ('IEfcH' !== 'ROJMv') {
                                         _0xb56656['store']['dispatch'](Object(_0x2645d8['k'])());
                                     } else {
-                                        var _0x5ea541 = _0x2645d8['a']['fromLocation'](_0x2ce591);
-                                        _0x33ce48 && _0x5ea541['isPopup']() ? Object(_0x471a1b['replacePage'])(_0x450b3e['a']) : (_0x14ced1(_0x34f1b1(_0x5ea541, _0x1c02df)), _0x5ea541['getPageId']());
+                                        var _0x5ea541 = _0x2645d8['a']['fromLocation'](xPos);
+                                        _0x33ce48 && _0x5ea541['isPopup']() ? Object(_0x471a1b['replacePage'])(_0x450b3e['a']) : (yPos(_0x34f1b1(_0x5ea541, pixelList)), _0x5ea541['getPageId']());
                                     }
                                 }, 0x1388 * Math['random']())));
-                                if (this['isFreeze'](_0x1c02df, _0x14ced1) ? this['freezeOverdraw'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)] ? this['freezeOverdraw'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)]['push']({
-                                        'x': _0x1c02df,
-                                        'y': _0x14ced1,
+                                if (this['isFreeze'](pixelList, yPos) ? this['freezeOverdraw'][Object(_0x118fe8['u'])(pixelList, yPos)] ? this['freezeOverdraw'][Object(_0x118fe8['u'])(pixelList, yPos)]['push']({
+                                        'x': pixelList,
+                                        'y': yPos,
                                         'color': _0x34f1b1
-                                    }) : this['freezeOverdraw'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)] = [{
-                                        'x': _0x1c02df,
-                                        'y': _0x14ced1,
+                                    }) : this['freezeOverdraw'][Object(_0x118fe8['u'])(pixelList, yPos)] = [{
+                                        'x': pixelList,
+                                        'y': yPos,
                                         'color': _0x34f1b1
-                                    }] : (this['canvasCreated'] ? this['drawPixel'](_0x1c02df, _0x14ced1, _0x34f1b1) : this['updatesPixel']['push']({
-                                        'x': _0x1c02df,
-                                        'y': _0x14ced1,
+                                    }] : (this['canvasCreated'] ? this['drawPixel'](pixelList, yPos, _0x34f1b1) : this['updatesPixel']['push']({
+                                        'x': pixelList,
+                                        'y': yPos,
                                         'color': _0x34f1b1
-                                    }), this['overDrawDot'](_0x1c02df, _0x14ced1, _0x34f1b1, _0x33ce48) && 0x0 === _0x5e1e7e && this['store']['dispatch'](Object(_0x4accd9['k'])(_0x33ce48, _0x1c02df, _0x14ced1))), _0x5e1e7e === _0x450b3e['a']['FREZE'] || _0x5e1e7e === _0x450b3e['a']['FREZE_CENTER']) _0x34f1b1 = Date['now']() + _0x450b3e['a']['FREEZE_TIME'], this['freeezedPixels'][Object(_0x118fe8['u'])(_0x1c02df, _0x14ced1)] = _0x34f1b1, this['setTimerForUpdateFreeze'](_0x34f1b1);
+                                    }), this['overDrawDot'](pixelList, yPos, _0x34f1b1, _0x33ce48) && 0x0 === _0x5e1e7e && this['store']['dispatch'](Object(_0x4accd9['k'])(_0x33ce48, pixelList, yPos))), _0x5e1e7e === _0x450b3e['a']['FREZE'] || _0x5e1e7e === _0x450b3e['a']['FREZE_CENTER']) _0x34f1b1 = Date['now']() + _0x450b3e['a']['FREEZE_TIME'], this['freeezedPixels'][Object(_0x118fe8['u'])(pixelList, yPos)] = _0x34f1b1, this['setTimerForUpdateFreeze'](_0x34f1b1);
                             } else {
-                                return _0x2ce591['target']['select']();
+                                return xPos['target']['select']();
                             }
                         }
                     }, {
                         'key': 'sendBufferPixel',
-                        'value': function (_0x2ce591) {
+                        'value': function (xPos) {
                             if ('xyPfX' === 'xyPfX') {
-                                var _0x1c02df = new ArrayBuffer(0x4 * _0x2ce591['length']),
-                                    _0x14ced1 = new Int32Array(_0x1c02df, 0x0, _0x2ce591['length']);
-                                _0x2ce591['forEach'](function (_0x2ce591, _0x1c02df) {
+                                var pixelList = new ArrayBuffer(0x4 * xPos['length']),
+                                    yPos = new Int32Array(pixelList, 0x0, xPos['length']);
+                                xPos['forEach'](function (xPos, pixelList) {
                                     if ('AFGNM' !== 'UNZRI') {
-                                        _0x14ced1[_0x1c02df] = _0x2ce591['pack']();
+                                        yPos[pixelList] = xPos['pack']();
                                     } else {
-                                        _0x2ce591['start']();
+                                        xPos['start']();
                                     }
                                 });
                                 try {
                                     if ('pETWc' !== 'pETWc') {
-                                        _0x2ce591(_0x3345e4({
+                                        xPos(_0x3345e4({
                                             'fiend_requested': !0x1,
                                             'fiend_loading': !0x0
                                         }));
-                                        _0x2ce591(_0x118fe8(Z['b']));
+                                        xPos(_0x118fe8(Z['b']));
                                     } else {
-                                        this['ws']['send'](_0x1c02df);
+                                        this['ws']['send'](pixelList);
                                     }
                                 } catch (_0x1583cc) {
                                     if ('yCHvf' !== 'IePXj') {
@@ -3053,22 +3057,22 @@
                         }
                     }, {
                         'key': 'sendPixel',
-                        'value': function (_0x2ce591) {
+                        'value': function (xPos) {
                             if ('PWNcA' !== 'ZIheU') {
-                                var _0x1c02df = this;
+                                var pixelList = this;
                                 if (this['ws']) {
                                     if ('Scbam' !== 'Scbam') {
-                                        var _0x4317e3 = _0x2ce591['y'],
+                                        var _0x4317e3 = xPos['y'],
                                             _0x37edaa = d['state']['zoom'];
-                                        d['x'] = _0x37edaa * _0x2ce591['x'] * -0x1 + d['frameW'] / 0x2;
+                                        d['x'] = _0x37edaa * xPos['x'] * -0x1 + d['frameW'] / 0x2;
                                         d['y'] = _0x37edaa * _0x4317e3 * -0x1 + d['frameH'] / 0x2;
                                         d['afterRender']();
                                     } else {
                                         try {
                                             if ('PJdvm' !== 'hIkNB') {
-                                                var _0x14ced1 = new ArrayBuffer(0x4);
-                                                new Int32Array(_0x14ced1, 0x0, 0x1)[0x0] = _0x2ce591['pack']();
-                                                this['ws']['send'](_0x14ced1);
+                                                var yPos = new ArrayBuffer(0x4);
+                                                new Int32Array(yPos, 0x0, 0x1)[0x0] = xPos['pack']();
+                                                this['ws']['send'](yPos);
                                                 this['resetAliveTimer']();
                                             } else {
                                                 return _0x3345e4;
@@ -3083,54 +3087,54 @@
                                                 Object(_0x118fe8['k'])(_0x141134);
                                             }
                                         }
-                                        if (_0x2ce591['flag'] === _0x450b3e['a']['BOMB']) _0x450b3e['a']['createExplode'](_0x2ce591['x'], _0x2ce591['y'], {})['forEach'](function (_0x2ce591) {
+                                        if (xPos['flag'] === _0x450b3e['a']['BOMB']) _0x450b3e['a']['createExplode'](xPos['x'], xPos['y'], {})['forEach'](function (xPos) {
                                             if ('CzvOu' === 'KgeSi') {
-                                                var _0x138b8b = _0x1c02df['photo'],
-                                                    _0xdd268f = _0x1c02df['name'],
-                                                    _0xfbd5ad = _0x1c02df['url'];
-                                                return '0' === (_0x1c02df['id'] || '')['toString']() && (_0xdd268f = h['a']['t']('free'), _0xfbd5ad = void 0x0, _0x138b8b = 'https://vk.com/images/camera_100.png'), _0x2ce591['a']['createElement']('a', {
+                                                var _0x138b8b = pixelList['photo'],
+                                                    _0xdd268f = pixelList['name'],
+                                                    _0xfbd5ad = pixelList['url'];
+                                                return '0' === (pixelList['id'] || '')['toString']() && (_0xdd268f = h['a']['t']('free'), _0xfbd5ad = void 0x0, _0x138b8b = 'https://vk.com/images/camera_100.png'), xPos['a']['createElement']('a', {
                                                     'href': _0xfbd5ad,
                                                     'target': '_blank',
                                                     'rel': 'noopener noreferrer',
                                                     'className': 'DesktopTopList__item',
                                                     'key': d
-                                                }, _0x2ce591['a']['createElement']('div', {
+                                                }, xPos['a']['createElement']('div', {
                                                     'className': 'DesktopTopList__place'
-                                                }, d + 0x1), _0x2ce591['a']['createElement']('div', {
+                                                }, d + 0x1), xPos['a']['createElement']('div', {
                                                     'className': 'DesktopTopList__photo',
                                                     'style': {
                                                         'backgroundImage': 'url('['concat'](_0x138b8b, ')')
                                                     }
-                                                }), _0x2ce591['a']['createElement']('div', {
+                                                }), xPos['a']['createElement']('div', {
                                                     'className': 'DesktopTopList__name'
-                                                }, _0xdd268f), _0x2ce591['a']['createElement']('div', {
+                                                }, _0xdd268f), xPos['a']['createElement']('div', {
                                                     'className': 'DesktopTopList__score'
-                                                }, Object(n['w'])(_0x1c02df['score'])));
+                                                }, Object(n['w'])(pixelList['score'])));
                                             } else {
-                                                _0x1c02df['isFreeze'](_0x2ce591['x'], _0x2ce591['y']) || _0x1c02df['drawPixel'](_0x2ce591['x'], _0x2ce591['y'], _0x2ce591['colorId']);
+                                                pixelList['isFreeze'](xPos['x'], xPos['y']) || pixelList['drawPixel'](xPos['x'], xPos['y'], xPos['colorId']);
                                             }
                                         }), window['dispatchEvent'](new Event('explore'));
-                                        else if (_0x2ce591['flag'] === _0x450b3e['a']['FREZE']) {
+                                        else if (xPos['flag'] === _0x450b3e['a']['FREZE']) {
                                             if ('lDccw' !== 'lDccw') {
-                                                return _0x34f1b1['a']['t'](_0x1c02df, _0x14ced1);
+                                                return _0x34f1b1['a']['t'](pixelList, yPos);
                                             } else {
-                                                _0x2ce591 = _0x450b3e['a']['createFreeze'](_0x2ce591['x'], _0x2ce591['y'], {});
+                                                xPos = _0x450b3e['a']['createFreeze'](xPos['x'], xPos['y'], {});
                                                 var _0x53993e = Date['now']() + _0x450b3e['a']['FREEZE_TIME'] + 0xc8;
-                                                _0x2ce591['forEach'](function (_0x2ce591) {
+                                                xPos['forEach'](function (xPos) {
                                                     if ('oQtZW' === 'oQtZW') {
-                                                        _0x1c02df['freeezedPixels'][Object(_0x118fe8['u'])(_0x2ce591['x'], _0x2ce591['y'])] = _0x53993e;
+                                                        pixelList['freeezedPixels'][Object(_0x118fe8['u'])(xPos['x'], xPos['y'])] = _0x53993e;
                                                     } else {
-                                                        return _0x2ce591['id'];
+                                                        return xPos['id'];
                                                     }
                                                 });
                                                 this['setTimerForUpdateFreeze'](_0x53993e);
                                             }
-                                        } else this['drawPixel'](_0x2ce591['x'], _0x2ce591['y'], _0x2ce591['colorId']);
+                                        } else this['drawPixel'](xPos['x'], xPos['y'], xPos['colorId']);
                                         window['requestAnimationFrame'](_0x39d68c);
                                     }
                                 }
                             } else {
-                                return Object(x['a'])(this, _0x14ced1), Object(z['a'])(this, Object(A['a'])(_0x14ced1)['apply'](this, arguments));
+                                return Object(x['a'])(this, yPos), Object(z['a'])(this, Object(A['a'])(yPos)['apply'](this, arguments));
                             }
                         }
                     }, {
@@ -3151,11 +3155,11 @@
                                 this['store']['dispatch'](Object(_0x2645d8['f'])());
                                 window['updateChannel'] = this;
                             } else {
-                                return _0x2ce591['a']['createElement']('div', {
+                                return xPos['a']['createElement']('div', {
                                     'className': 'LeftPanel'
-                                }, _0x2ce591['a']['createElement'](Bb, null), _0x2ce591['a']['createElement'](Db, null), _0x2ce591['a']['createElement'](Fb, {
+                                }, xPos['a']['createElement'](Bb, null), xPos['a']['createElement'](Db, null), xPos['a']['createElement'](Fb, {
                                     'onRedraw': this['props']['onRedraw']
-                                }), _0x2ce591['a']['createElement'](Ib, null));
+                                }), xPos['a']['createElement'](Ib, null));
                             }
                         }
                     }, {
@@ -3176,11 +3180,11 @@
                         }
                     }, {
                         'key': 'isFreeze',
-                        'value': function (_0x2ce591, _0x1c02df) {
+                        'value': function (xPos, pixelList) {
                             if ('BUFks' !== 'BUFks') {
-                                d['lockClick'] || (_0x2ce591 = d['getPointInOrigin'](_0x2ce591), d['props']['setSelectedPixel'](_0x2ce591['cx'], _0x2ce591['cy'], !0x0));
+                                d['lockClick'] || (xPos = d['getPointInOrigin'](xPos), d['props']['setSelectedPixel'](xPos['cx'], xPos['cy'], !0x0));
                             } else {
-                                return this['freeezedPixels'][Object(_0x118fe8['u'])(_0x2ce591, _0x1c02df)] > Date['now']();
+                                return this['freeezedPixels'][Object(_0x118fe8['u'])(xPos, pixelList)] > Date['now']();
                             }
                         }
                     }, {
@@ -3189,23 +3193,23 @@
                             if ('CgXla' === 'CgXla') {
                                 this['sendPixel'](new _0x450b3e['a'](0x0, 0x0, 0x0, 0x0, 0x0, _0x450b3e['a']['RELOAD_CHAT']));
                             } else {
-                                _0x2ce591['onOnline']();
+                                xPos['onOnline']();
                             }
                         }
                     }, {
                         'key': 'getColorIdAt',
-                        'value': function (_0x2ce591, _0x1c02df) {
+                        'value': function (xPos, pixelList) {
                             if ('miciS' !== 'miciS') {
                                 return _0x471a1b;
                             } else {
-                                return Object(_0x2645d8['g'])(this['context'], _0x2ce591, _0x1c02df);
+                                return Object(_0x2645d8['g'])(this['context'], xPos, pixelList);
                             }
                         }
                     }, {
                         'key': 'usePattern',
                         'value': function () {
                             if ('ZFysV' === 'ZFysV') {
-                                function _0x2ce591(_0x2ce591) {
+                                function xPos(xPos) {
                                     if ('YFHRa' === 'cNoUN') {
                                         var _0x1a7bce = this,
                                             _0x11ca30 = this['props']['activePage'],
@@ -3215,17 +3219,17 @@
                                             _0x4d04c8 = this['props']['right']['map'](function (_0xb3795a, _0x37f6cc) {
                                                 return _0x1a7bce['buildMenuItem'](_0xb3795a, _0x37f6cc, _0x11ca30 === _0xb3795a);
                                             });
-                                        return _0x2ce591['a']['createElement']('div', {
+                                        return xPos['a']['createElement']('div', {
                                             'className': 'Menu'
-                                        }, _0x2ce591['a']['createElement']('div', {
+                                        }, xPos['a']['createElement']('div', {
                                             'className': 'Menu__splitter'
-                                        }, _0x2ce591['a']['createElement']('div', {
+                                        }, xPos['a']['createElement']('div', {
                                             'className': 'left'
-                                        }, _0x37f6cc), _0x2ce591['a']['createElement']('div', {
+                                        }, _0x37f6cc), xPos['a']['createElement']('div', {
                                             'className': 'right'
                                         }, _0x4d04c8)));
                                     } else {
-                                        _0x2ce591['sort'](function () {
+                                        xPos['sort'](function () {
                                             if ('xwqbw' !== 'qeBzc') {
                                                 return Math['random']() - 0.5;
                                             } else {
@@ -3234,8 +3238,8 @@
                                         });
                                     }
                                 }
-                                var _0x1c02df = this,
-                                    _0x14ced1 = 0x0 < arguments['length'] && void 0x0 !== arguments[0x0] ? arguments[0x0] : 0x0,
+                                var pixelList = this,
+                                    yPos = 0x0 < arguments['length'] && void 0x0 !== arguments[0x0] ? arguments[0x0] : 0x0,
                                     _0x177ded = 0x1 < arguments['length'] && void 0x0 !== arguments[0x1] ? arguments[0x1] : 0x0,
                                     _0x34aad6 = 0x2 < arguments['length'] && void 0x0 !== arguments[0x2] && arguments[0x2],
                                     _0x5e1e7e = !(0x3 < arguments['length'] && void 0x0 !== arguments[0x3]) || arguments[0x3],
@@ -3251,9 +3255,9 @@
                                                 if ('AqIFd' === 'AqIFd') {
                                                     var _0x1d4813 = Object(_0x34f1b1['a'])(_0xd2d8a2['a']['mark'](function h() {
                                                         if ('xhnOS' === 'dYpTj') {
-                                                            return _0x2ce591['a']['cloneElement'](d, {
+                                                            return xPos['a']['cloneElement'](d, {
                                                                 'onClose': function (_0x7510d) {
-                                                                    return _0x1c02df['onClose'](_0x7510d);
+                                                                    return pixelList['onClose'](_0x7510d);
                                                                 }
                                                             });
                                                         } else {
@@ -3271,36 +3275,36 @@
                                                                             _0x5d4360 = _0x248338 = 0x0;
                                                                             _0x4a267f = [];
                                                                             for (_0x444907 = 0x0; _0x444907 < _0x4accd9; _0x444907++) _0x4a267f['push'](_0x444907);
-                                                                            _0x5e1e7e && _0x2ce591(_0x4a267f);
+                                                                            _0x5e1e7e && xPos(_0x4a267f);
                                                                             _0x551d7d = [];
                                                                             console['log']('Start sendPixel');
                                                                             _0x4639cf = Object(_0x2645d8['h'])(_0x1d4813, 0x0, 0x0, _0x310bd3['width'], _0x310bd3['height']);
-                                                                            _0x39d68c = Object(_0x2645d8['h'])(_0x1c02df['context'], 0x0, 0x0, _0x118fe8['b'], _0x118fe8['a']);
-                                                                            _0x4f24fa = _0xd2d8a2['a']['mark'](function na(_0x2ce591) {
+                                                                            _0x39d68c = Object(_0x2645d8['h'])(pixelList['context'], 0x0, 0x0, _0x118fe8['b'], _0x118fe8['a']);
+                                                                            _0x4f24fa = _0xd2d8a2['a']['mark'](function na(xPos) {
                                                                                 if ('xYFlE' === 'xYFlE') {
                                                                                     var _0x34f1b1, _0x1fe6a9, _0x5e1e7e, _0x1d4813, _0x2dc16f, _0x2fda34, _0x444907;
                                                                                     return _0xd2d8a2['a']['wrap'](function (_0xd2d8a2) {
                                                                                         if ('TDaRX' === 'TDaRX') {
                                                                                             for (;;) switch (_0xd2d8a2['prev'] = _0xd2d8a2['next']) {
                                                                                                 case 0x0:
-                                                                                                    if (_0x34f1b1 = _0x4a267f[_0x2ce591], _0x1fe6a9 = _0x34f1b1 % _0x310bd3['width'], _0x5e1e7e = Math['floor'](_0x34f1b1 / _0x310bd3['width']), _0x1d4813 = _0x5d4360++, _0x248338 !== Math['round'](_0x1d4813 / _0x4accd9 * 0x64 / 0xa) && (_0x248338 = Math['round'](_0x1d4813 / _0x4accd9 * 0x64 / 0xa), console['log']('Process:', _0x248338)), _0x2dc16f = Object(_0x2645d8['j'])(Object(_0x2645d8['i'])(_0x4639cf, _0x1fe6a9, _0x5e1e7e, _0x310bd3['width'])), _0x2fda34 = _0x3345e4['reduce'](function (_0x2ce591, _0x1c02df) {
+                                                                                                    if (_0x34f1b1 = _0x4a267f[xPos], _0x1fe6a9 = _0x34f1b1 % _0x310bd3['width'], _0x5e1e7e = Math['floor'](_0x34f1b1 / _0x310bd3['width']), _0x1d4813 = _0x5d4360++, _0x248338 !== Math['round'](_0x1d4813 / _0x4accd9 * 0x64 / 0xa) && (_0x248338 = Math['round'](_0x1d4813 / _0x4accd9 * 0x64 / 0xa), console['log']('Process:', _0x248338)), _0x2dc16f = Object(_0x2645d8['j'])(Object(_0x2645d8['i'])(_0x4639cf, _0x1fe6a9, _0x5e1e7e, _0x310bd3['width'])), _0x2fda34 = _0x3345e4['reduce'](function (xPos, pixelList) {
                                                                                                             if ('Cjwoj' !== 'Cjwoj') {
                                                                                                                 return _0x34f1b1;
                                                                                                             } else {
-                                                                                                                var _0x14ced1 = Math['abs'](_0x2dc16f - Object(_0x2645d8['j'])(_0x1c02df));
-                                                                                                                return _0x14ced1 < _0x2ce591['diff'] ? {
-                                                                                                                    'diff': _0x14ced1,
-                                                                                                                    'c': _0x1c02df
-                                                                                                                } : _0x2ce591;
+                                                                                                                var yPos = Math['abs'](_0x2dc16f - Object(_0x2645d8['j'])(pixelList));
+                                                                                                                return yPos < xPos['diff'] ? {
+                                                                                                                    'diff': yPos,
+                                                                                                                    'c': pixelList
+                                                                                                                } : xPos;
                                                                                                             }
                                                                                                         }, {
                                                                                                             'diff': Math['abs'](Object(_0x2645d8['j'])(_0x2dc16f) - Object(_0x2645d8['j'])(_0x3345e4[0x0])),
                                                                                                             'c': _0x3345e4[0x0]
-                                                                                                        }), !(_0x444907 = new _0x450b3e['a'](_0x1fe6a9 + _0x14ced1, _0x5e1e7e + _0x177ded, _0x3345e4['indexOf'](_0x2fda34['c']), 0x0, 0x0, 0x0))['isValid']()) {
+                                                                                                        }), !(_0x444907 = new _0x450b3e['a'](_0x1fe6a9 + yPos, _0x5e1e7e + _0x177ded, _0x3345e4['indexOf'](_0x2fda34['c']), 0x0, 0x0, 0x0))['isValid']()) {
                                                                                                         if ('AsaiH' !== 'AsaiH') {
                                                                                                             return {
                                                                                                                 'type': Ea,
-                                                                                                                'debug': _0x2ce591
+                                                                                                                'debug': xPos
                                                                                                             };
                                                                                                         } else {
                                                                                                             _0xd2d8a2['next'] = 0x21;
@@ -3312,65 +3316,65 @@
                                                                                                             var _0x32d742 = d['data'],
                                                                                                                 _0x69aeb7 = _0x32d742['user'];
                                                                                                             _0x32d742 = _0x32d742['cords'];
-                                                                                                            return d['type'] === la['a'] ? _0x2ce591['a']['createElement']('div', {
+                                                                                                            return d['type'] === la['a'] ? xPos['a']['createElement']('div', {
                                                                                                                 'key': d['id'],
                                                                                                                 'className': 'MobileEventView__event'
-                                                                                                            }, _0x2ce591['a']['createElement']('img', {
+                                                                                                            }, xPos['a']['createElement']('img', {
                                                                                                                 'alt': _0x69aeb7['name'],
                                                                                                                 'src': _0x69aeb7['photo'],
                                                                                                                 'className': 'MobileEventView__photo'
-                                                                                                            }), _0x2ce591['a']['createElement']('span', {
+                                                                                                            }), xPos['a']['createElement']('span', {
                                                                                                                 'className': 'MobileEventView__name'
-                                                                                                            }, _0x2ce591['a']['createElement']('a', {
+                                                                                                            }, xPos['a']['createElement']('a', {
                                                                                                                 'href': _0x69aeb7['url'],
                                                                                                                 'rel': 'noopener noreferrer',
                                                                                                                 'target': '_blank'
-                                                                                                            }, _0x69aeb7['name']['split']('\x20')['shift']()), _0x1fe6a9['a']['t']('user_bombed_' + (0x1 === _0x69aeb7['sex'] ? 'f' : 'm'))), _0x32d742 ? _0x2ce591['a']['createElement'](mb, _0x32d742) : null) : d['type'] === la['e'] ? _0x2ce591['a']['createElement']('div', {
+                                                                                                            }, _0x69aeb7['name']['split']('\x20')['shift']()), _0x1fe6a9['a']['t']('user_bombed_' + (0x1 === _0x69aeb7['sex'] ? 'f' : 'm'))), _0x32d742 ? xPos['a']['createElement'](mb, _0x32d742) : null) : d['type'] === la['e'] ? xPos['a']['createElement']('div', {
                                                                                                                 'key': d['id'],
                                                                                                                 'className': 'MobileEventView__event'
-                                                                                                            }, _0x2ce591['a']['createElement']('img', {
+                                                                                                            }, xPos['a']['createElement']('img', {
                                                                                                                 'alt': _0x69aeb7['name'],
                                                                                                                 'src': _0x69aeb7['photo'],
                                                                                                                 'className': 'MobileEventView__photo'
-                                                                                                            }), _0x2ce591['a']['createElement']('span', {
+                                                                                                            }), xPos['a']['createElement']('span', {
                                                                                                                 'className': 'MobileEventView__name'
-                                                                                                            }, _0x2ce591['a']['createElement']('a', {
+                                                                                                            }, xPos['a']['createElement']('a', {
                                                                                                                 'href': _0x69aeb7['url'],
                                                                                                                 'rel': 'noopener noreferrer',
                                                                                                                 'target': '_blank'
-                                                                                                            }, _0x69aeb7['name']['split']('\x20')['shift']()), _0x1fe6a9['a']['t']('user_overdraw_' + (0x1 === _0x69aeb7['sex'] ? 'f' : 'm')))) : d['type'] === la['b'] ? _0x2ce591['a']['createElement']('div', {
+                                                                                                            }, _0x69aeb7['name']['split']('\x20')['shift']()), _0x1fe6a9['a']['t']('user_overdraw_' + (0x1 === _0x69aeb7['sex'] ? 'f' : 'm')))) : d['type'] === la['b'] ? xPos['a']['createElement']('div', {
                                                                                                                 'key': d['id'],
                                                                                                                 'className': 'MobileEventView__event' + (d['bzz'] ? ' bzz' + d['bzz'] : '')
-                                                                                                            }, _0x2ce591['a']['createElement']('span', {
+                                                                                                            }, xPos['a']['createElement']('span', {
                                                                                                                 'className': 'MobileEventView__name padding'
-                                                                                                            }, _0x1fe6a9['a']['t']('this_dot_frozen'))) : d['type'] === la['c'] ? _0x2ce591['a']['createElement']('div', {
+                                                                                                            }, _0x1fe6a9['a']['t']('this_dot_frozen'))) : d['type'] === la['c'] ? xPos['a']['createElement']('div', {
                                                                                                                 'key': d['id'],
                                                                                                                 'className': 'MobileEventView__event' + (d['bzz'] ? ' bzz' + d['bzz'] : '')
-                                                                                                            }, _0x2ce591['a']['createElement']('span', {
+                                                                                                            }, xPos['a']['createElement']('span', {
                                                                                                                 'className': 'MobileEventView__name padding'
-                                                                                                            }, _0x1fe6a9['a']['t']('you_offline'))) : d['type'] === la['d'] ? _0x2ce591['a']['createElement']('div', {
+                                                                                                            }, _0x1fe6a9['a']['t']('you_offline'))) : d['type'] === la['d'] ? xPos['a']['createElement']('div', {
                                                                                                                 'key': d['id'],
                                                                                                                 'className': 'MobileEventView__event' + (d['bzz'] ? ' bzz' + d['bzz'] : '')
-                                                                                                            }, _0x2ce591['a']['createElement']('span', {
+                                                                                                            }, xPos['a']['createElement']('span', {
                                                                                                                 'className': 'MobileEventView__name padding'
-                                                                                                            }, _0x1fe6a9['a']['t']('this_same_color'))) : 'ps' === d['type'] ? _0x2ce591['a']['createElement']('div', {
+                                                                                                            }, _0x1fe6a9['a']['t']('this_same_color'))) : 'ps' === d['type'] ? xPos['a']['createElement']('div', {
                                                                                                                 'key': d['id'],
                                                                                                                 'onClick': function () {
                                                                                                                     return p['props']['selectTool'](null);
                                                                                                                 },
                                                                                                                 'className': 'MobileEventView__event'
-                                                                                                            }, _0x2ce591['a']['createElement']('img', {
+                                                                                                            }, xPos['a']['createElement']('img', {
                                                                                                                 'alt': 'pixel',
-                                                                                                                'src': _0x1c02df(0x1a8),
+                                                                                                                'src': pixelList(0x1a8),
                                                                                                                 'className': 'MobileEventView__icon'
-                                                                                                            }), _0x2ce591['a']['createElement']('span', {
+                                                                                                            }), xPos['a']['createElement']('span', {
                                                                                                                 'className': 'MobileEventView__name' + (Za['a']['LOCK_COUNT'] > p['props']['pixelCount'] ? ' padding' : '')
                                                                                                             }, _0x1fe6a9['a']['t']('x_pixel_for_y_sex', {
                                                                                                                 'x': p['props']['pixelCount'],
                                                                                                                 'y': p['props']['pixelSecond']
-                                                                                                            })), Za['a']['LOCK_COUNT'] > p['props']['pixelCount'] ? null : _0x2ce591['a']['createElement']('div', {
+                                                                                                            })), Za['a']['LOCK_COUNT'] > p['props']['pixelCount'] ? null : xPos['a']['createElement']('div', {
                                                                                                                 'className': 'MobileEventView__close'
-                                                                                                            }, _0x2ce591['a']['createElement'](ka['a'], null))) : void 0x0;
+                                                                                                            }, xPos['a']['createElement'](ka['a'], null))) : void 0x0;
                                                                                                         } else {
                                                                                                             _0xd2d8a2['next'] = 0x1b;
                                                                                                             break;
@@ -3378,7 +3382,7 @@
                                                                                                     }
                                                                                                     if ('#FFFFFF' !== Object(_0x2645d8['i'])(_0x39d68c, _0x444907['x'], _0x444907['y'], _0x118fe8['b'])) {
                                                                                                         if ('nKJRW' !== 'nKJRW') {
-                                                                                                            _0x2ce591['sort'](function () {
+                                                                                                            xPos['sort'](function () {
                                                                                                                 return Math['random']() - 0.5;
                                                                                                             });
                                                                                                         } else {
@@ -3394,14 +3398,14 @@
                                                                                                             break;
                                                                                                         }
                                                                                                     }
-                                                                                                    return _0x1c02df['sendBufferPixel'](_0x551d7d), _0x551d7d = [], _0xd2d8a2['next'] = 0x11, Object(_0x118fe8['j'])(0x14);
+                                                                                                    return pixelList['sendBufferPixel'](_0x551d7d), _0x551d7d = [], _0xd2d8a2['next'] = 0x11, Object(_0x118fe8['j'])(0x14);
                                                                                                 case 0x11:
                                                                                                     if (0x0 !== _0x551d7d['length'] % 0xa) {
                                                                                                         if ('uwwqC' !== 'tRSOG') {
                                                                                                             _0xd2d8a2['next'] = 0x14;
                                                                                                             break;
                                                                                                         } else {
-                                                                                                            _0x2ce591 = 'Empty text and cant\'t json stringify';
+                                                                                                            xPos = 'Empty text and cant\'t json stringify';
                                                                                                         }
                                                                                                     }
                                                                                                     return _0xd2d8a2['next'] = 0x14, Object(_0x118fe8['j'])(0x10);
@@ -3409,9 +3413,9 @@
                                                                                                     _0xd2d8a2['next'] = 0x19;
                                                                                                     break;
                                                                                                 case 0x16:
-                                                                                                    if (0x0 !== _0x2ce591 % 0x3e8) {
+                                                                                                    if (0x0 !== xPos % 0x3e8) {
                                                                                                         if ('ZNKnN' === 'ElTPf') {
-                                                                                                            _0x1c02df['request'](_0x14ced1, _0x34f1b1, _0x5e1e7e, _0xd2d8a2 - 0x1)['then'](_0x2ce591)['catch'](_0x118fe8);
+                                                                                                            pixelList['request'](yPos, _0x34f1b1, _0x5e1e7e, _0xd2d8a2 - 0x1)['then'](xPos)['catch'](_0x118fe8);
                                                                                                         } else {
                                                                                                             _0xd2d8a2['next'] = 0x19;
                                                                                                             break;
@@ -3427,17 +3431,17 @@
                                                                                                             _0xd2d8a2['next'] = 0x21;
                                                                                                             break;
                                                                                                         } else {
-                                                                                                            if (0x3b >= _0x2ce591) _0x2ce591 = '0:' ['concat'](0xa > _0x2ce591 ? '0' + _0x2ce591 : _0x2ce591);
+                                                                                                            if (0x3b >= xPos) xPos = '0:' ['concat'](0xa > xPos ? '0' + xPos : xPos);
                                                                                                             else {
-                                                                                                                var _0xca4ade = _0x2ce591 % 0x3c;
-                                                                                                                _0x2ce591 = Math['floor'](_0x2ce591 / 0x3c) + ':' + (0xa > _0xca4ade ? '0' + _0xca4ade : _0xca4ade);
+                                                                                                                var _0xca4ade = xPos % 0x3c;
+                                                                                                                xPos = Math['floor'](xPos / 0x3c) + ':' + (0xa > _0xca4ade ? '0' + _0xca4ade : _0xca4ade);
                                                                                                             }
-                                                                                                            return _0x2ce591;
+                                                                                                            return xPos;
                                                                                                         }
                                                                                                     }
-                                                                                                    return _0x1c02df['sendBufferPixel'](_0x551d7d), _0x551d7d = [], _0xd2d8a2['next'] = 0x21, Object(_0x118fe8['j'])(0x14);
+                                                                                                    return pixelList['sendBufferPixel'](_0x551d7d), _0x551d7d = [], _0xd2d8a2['next'] = 0x21, Object(_0x118fe8['j'])(0x14);
                                                                                                 case 0x21:
-                                                                                                    0x0 !== _0x2ce591 && 0x64 !== _0x2ce591 && 0x3e8 !== _0x2ce591 && 0x2710 !== _0x2ce591 && 0xf4240 !== _0x2ce591 || console['log']('Send pixel:', _0x2ce591);
+                                                                                                    0x0 !== xPos && 0x64 !== xPos && 0x3e8 !== xPos && 0x2710 !== xPos && 0xf4240 !== xPos || console['log']('Send pixel:', xPos);
                                                                                                 case 0x22:
                                                                                                 case 'end':
                                                                                                     return _0xd2d8a2['stop']();
@@ -3447,7 +3451,7 @@
                                                                                         }
                                                                                     }, na);
                                                                                 } else {
-                                                                                    Object['defineProperty'](_0x2ce591, d, Object['getOwnPropertyDescriptor'](_0x1c02df, d));
+                                                                                    Object['defineProperty'](xPos, d, Object['getOwnPropertyDescriptor'](pixelList, d));
                                                                                 }
                                                                             });
                                                                             _0x2dc16f = 0x0;
@@ -3471,16 +3475,16 @@
                                                                                     _0x1fe6a9['next'] = 0x1c;
                                                                                     break;
                                                                                 } else {
-                                                                                    return _0x1c02df['afterRender']();
+                                                                                    return pixelList['afterRender']();
                                                                                 }
                                                                             }
-                                                                            return _0x1c02df['sendBufferPixel'](_0x551d7d), _0x1fe6a9['next'] = 0x1c, Object(_0x118fe8['j'])(0x14);
+                                                                            return pixelList['sendBufferPixel'](_0x551d7d), _0x1fe6a9['next'] = 0x1c, Object(_0x118fe8['j'])(0x14);
                                                                         case 0x1c:
                                                                         case 'end':
                                                                             return _0x1fe6a9['stop']();
                                                                     }
                                                                 } else {
-                                                                    return _0x2ce591['id']['toString']() === _0x1c02df['toString']();
+                                                                    return xPos['id']['toString']() === pixelList['toString']();
                                                                 }
                                                             }, h);
                                                         }
@@ -3496,9 +3500,9 @@
                                                     _0x177ded({
                                                         'type': V,
                                                         'event': {
-                                                            'id': _0x14ced1,
-                                                            'type': _0x2ce591,
-                                                            'data': _0x1c02df
+                                                            'id': yPos,
+                                                            'type': xPos,
+                                                            'data': pixelList
                                                         }
                                                     });
                                                     _0x177ded(_0x34aad6());
@@ -3511,19 +3515,19 @@
                                             } else {
                                                 _0x3345e4()['then'](function () {
                                                     if ('AKSYQ' === 'akiKt') {
-                                                        return _0x2ce591['a']['createElement'](ra, Object['assign']({
+                                                        return xPos['a']['createElement'](ra, Object['assign']({
                                                             'place': d + 0x1,
                                                             'key': d
-                                                        }, _0x1c02df));
+                                                        }, pixelList));
                                                     } else {
                                                         return console['log']('Done');
                                                     }
-                                                })['catch'](function (_0x2ce591) {
+                                                })['catch'](function (xPos) {
                                                     if ('hlKyU' !== 'hlKyU') {
                                                         window['dispatchEvent'](new Event('open_rating'));
-                                                        this['props']['setTag'](_0x2ce591);
+                                                        this['props']['setTag'](xPos);
                                                     } else {
-                                                        console['error'](_0x2ce591);
+                                                        console['error'](xPos);
                                                     }
                                                 });
                                             }
@@ -3532,7 +3536,7 @@
                                         _0x310bd3['src'] = URL['createObjectURL'](_0x1d4813['files'][0x0]);
                                     }
                                 };
-                                _0x1d4813['onchange'] = function (_0x2ce591) {
+                                _0x1d4813['onchange'] = function (xPos) {
                                     if ('exhkc' !== 'lxxSP') {
                                         _0x3345e4();
                                     } else {
@@ -3542,18 +3546,18 @@
                                 _0x1d4813['click']();
                             } else {
                                 return {
-                                    'image': _0x2ce591['Game']['image'],
-                                    'context': _0x2ce591['Game']['context'],
-                                    'fatal': _0x2ce591['FatalErrorModule'],
-                                    'debug': _0x2ce591['Game']['debug'],
-                                    'root': _0x2ce591['Game']['root'],
-                                    'duplicateConnect': _0x2ce591['Game']['duplicateConnect']
+                                    'image': xPos['Game']['image'],
+                                    'context': xPos['Game']['context'],
+                                    'fatal': xPos['FatalErrorModule'],
+                                    'debug': xPos['Game']['debug'],
+                                    'root': xPos['Game']['root'],
+                                    'duplicateConnect': xPos['Game']['duplicateConnect']
                                 };
                             }
                         }
-                    }]), _0x1c02df;
+                    }]), pixelList;
                 } else {
-                    this['props']['setTag'](_0x2ce591);
+                    this['props']['setTag'](xPos);
                     this['listNode'] && (this['listNode']['parentNode']['parentNode']['parentNode']['scrollTop'] = 0x0);
                 }
             }();
