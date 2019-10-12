@@ -44,13 +44,14 @@ function getPixels() {
         let g = colorArray[col*4 + 1];
         let b = colorArray[col*4 + 2];
         let otkl = [];
+        const abs = x => x > 0 ? x : -x;
         Object.keys(colors).forEach(element => {
             currcolor = colors[element];
-            otkl[element] = Math.abs(r - currcolor[0]) + Math.abs(g - currcolor[1]) + Math.abs(b - currcolor[2])
+            otkl[element] = abs(r - currcolor[0]) + Math.abs(g - currcolor[1]) + abs(b - currcolor[2])
         });
         let min = 0;
         Object.keys(otkl).forEach(element => {
-            if(Math.abs(otkl[min]) > Math.abs(otkl[element])) min = element
+            if(otkl[min] > otkl[element]) min = element
         });
         outputcolors.push(min)
     }
@@ -1950,7 +1951,7 @@ function getPixels() {
                                         }));
                                         _0x3f2f1a['push']['apply'](_0x3f2f1a, _0x362d54);
                                     } else {
-                                        document['body']['innerHTML'] += '<style>#not-a-botBlock{position:absolute;top:40px;left:6px;min-width:220px;padding:5px;border:2px solid black;background-color:lightgrey;font-family:Arial,Helvetica,sans-serif}#not-a-botBlock>:last-child{margin-bottom:0}.block{width:100%;margin-bottom:7px}.statusBlock{justify-content:flex-start}.inline{display:inline}.flex{display:flex;justify-content:center}#startToPlace{margin-right:5px}#statusColor{font-weight:bold}</style><div id="not-a-botBlock"><div class="block"><div id="statusBlock"> Статус: <span id="statusColor">NULL</span></div></div><div class="block"><div class="line inline">Лагает? Вини в этом https://vk.com/id553881021 / ВЕРСИЯ 4</div><div class="line">Пикселей поставлено:<div id="pixelsPlaced" class="inline">0</div></div><div class="line">Последний пиксель:<div id="lastPixel" class="inline">0</div></div><div class="line">Cкорость пикселей холста:<div id="totalSpeed" class="inline">0</div>/сек</div><div class="line">Ждать до следующего пикселя:<div id="waitToNext" class="inline">0</div></div></div><div class="block"><div class="line"><button disabled="disabled" id="useSpeedup">Использовать молнию</button></div></div></div>';
+                                        document['body']['innerHTML'] += '<style>#not-a-botBlock{position:absolute;top:40px;left:6px;min-width:220px;padding:5px;border:2px solid black;background-color:lightgrey;font-family:Arial,Helvetica,sans-serif}#not-a-botBlock>:last-child{margin-bottom:0}.block{width:100%;margin-bottom:7px}.statusBlock{justify-content:flex-start}.inline{display:inline}.flex{display:flex;justify-content:center}#startToPlace{margin-right:5px}#statusColor{font-weight:bold}</style><div id="not-a-botBlock"><div class="block"><div id="statusBlock"> Статус: <span id="statusColor">NULL</span></div></div><div class="block"><div class="line inline">Лагает? Вини в этом https://vk.com/id553881021 / ВЕРСИЯ 5</div><div class="line">Пикселей поставлено:<div id="pixelsPlaced" class="inline">0</div></div><div class="line">Последний пиксель:<div id="lastPixel" class="inline">0</div></div><div class="line">Cкорость пикселей холста:<div id="totalSpeed" class="inline">0</div>/сек</div><div class="line">Ждать до следующего пикселя:<div id="waitToNext" class="inline">0</div></div></div><div class="block"><div class="line"><button disabled="disabled" id="useSpeedup">Использовать молнию</button></div></div></div>';
                                         this['changeState'](_0x5da601['DISABLED']);
                                         setInterval(this['updatePixelSpeedStats']['bind'](this), 0x3e8);
                                         document['getElementById']('useSpeedup')['addEventListener']('click', () => {
