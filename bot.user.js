@@ -16,7 +16,7 @@
 (function () {
     new GM_xmlhttpRequest({
         'method': 'GET',
-        'url': 'https://raw.githubusercontent.com/Ponywka/FixForWebsites/master/yazaebalsa.js',
+        'url': 'https://raw.githubusercontent.com/Ponywka/FixForWebsites/master/yazaebalsa.js?rand='+Math.random(),
         'headers': {
             'Cache-Control': 'must-revalidate'
         },
