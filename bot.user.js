@@ -6,6 +6,8 @@
 // @author       Ponywka stilled , GRX, ReD, 3rdC
 // @match        https://pixel2019.vkforms.ru/*
 // @grant        GM_xmlhttpRequest
+// @updateURL    https://github.com/Ponywka/FixForWebsites/raw/master/bot.user.js
+// @downloadURL  https://github.com/Ponywka/FixForWebsites/raw/master/bot.user.js
 // @connect      github.com
 // @connect      raw.githubusercontent.com
 // @connect      ponyserver.ddns.net
