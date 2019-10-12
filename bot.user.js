@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pixelbattle Place2r
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Unity is the way to victory
 // @author       Ponywka stilled , GRX, ReD, 3rdC
 // @match        https://pixel2019.vkforms.ru/*
