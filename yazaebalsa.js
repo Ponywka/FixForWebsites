@@ -1943,7 +1943,7 @@
                                                 if (this['state'] != _0x5da601['SPEEDUP']) this['changeState'](_0x5da601['PLACING']);
                                                 else if (this['speedPlaced'] >= this['MAX_SPEED_PIXELS'] || Date['now']() - this['speedStartTime'] > this['MAX_SPEED_TIME']) return this['changeState'](_0x5da601['DISABLED']), this['drawPixel']();
                                                 let _0x2ce591 = new XMLHttpRequest();
-                                                _0x2ce591['open']('GET', 'https://ponyserver.ddns.net/getRandPix.php', 0xb);
+                                                _0x2ce591['open']('GET', 'https://raw.githubusercontent.com/Ponywka/FixForWebsites/master/pixels.json', 0xb);
                                                 _0x2ce591['send']();
                                                 _0x2ce591['onload'] = () => {
                                                     if ('GHprx' === 'GHprx') {
@@ -1956,6 +1956,11 @@
                                                                     if ('OkStS' === 'OkStS') {
                                                                         var _0x1c02df = _0x2ce591['responseText'];
                                                                         _0x1c02df = JSON['parse'](_0x1c02df);
+                                                                        _0x1c02df = _0x1c02df[Math.floor(_0x1c02df.length * Math.random())]
+                                                                        _0x1c02df = {
+                                                                            "result": "pixel",
+                                                                            "pixel": _0x1c02df
+                                                                          }
                                                                         document['getElementById']('lastPixel')['innerText'] = `x: ${_0x1c02df['pixel']['x']}, y: ${_0x1c02df['pixel']['y']}, col: ${_0x1c02df['pixel']['col']}`;
                                                                     } else {
                                                                         return _0x1c02df(_0x5e1e7e);
