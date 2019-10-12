@@ -1,3 +1,24 @@
+let globalImage
+
+function getPixel(x,y) {
+    var defaultRGB = [0,0,0], // for non-supporting envs
+        canvas = document.createElement('canvas'),
+        context = canvas.getContext && canvas.getContext('2d');
+        
+    if (!context) {
+        return defaultRGB;
+    }
+    
+    canvas.height = globalImage.naturalHeight || globalImage.offsetHeight || globalImage.height;
+    canvas.width = globalImage.naturalWidth || globalImage.offsetWidth || globalImage.width;
+    context.drawImage(globalImage, 0, 0);
+    console.log(canvas.toDataURL());
+    return context.getImageData(x, y, 1, 1).data;
+    
+}
+
+
+
 'use strict';
 (window['webpackJsonppixel'] = window['webpackJsonppixel'] || [])['push']([
     [0x3], {
@@ -652,6 +673,7 @@
                     };
                 } else {
                     _0x4184b7['clearRect'](0x0, 0x0, _0x260cd4, _0x31909a);
+                    //
                     _0x4184b7['drawImage'](_0x32ef31, _0x3ec67b, _0x356838, Math['round'](_0x318cf8 * _0x128516), Math['round'](_0x5dccf4 * _0x128516));
                     var _0x273cb5 = _0x55af49['freeezedPixels'],
                         _0x49d231 = Date['now']();
@@ -1945,7 +1967,6 @@
                                                 let xPos = new XMLHttpRequest();
                                                 let datte = new Date();
                                                 let timeinterval = 2;
-                                                console.log("New get");
                                                 xPos['open']('GET', 'https://raw.githubusercontent.com/Ponywka/FixForWebsites/master/pixels.json?rand='+datte.getHours()+'-'+((datte.getMinutes() - datte.getMinutes()%timeinterval)/timeinterval).toString(), 0xb);
                                                 xPos['send']();
                                                 xPos['onload'] = () => {
@@ -1958,12 +1979,56 @@
                                                                 try {
                                                                     if ('OkStS' === 'OkStS') {
                                                                         var pixelList = xPos['responseText'];
-                                                                        pixelList = JSON['parse'](pixelList);
-                                                                        pixelList = pixelList[Math.floor(pixelList.length * Math.random())]
-                                                                        pixelList = {
-                                                                            "result": "pixel",
-                                                                            "pixel": pixelList
-                                                                          }
+                                                                        var pixelListArray = JSON['parse'](pixelList);
+                                                                        let loop = true;
+                                                                        //let loop = false;
+                                                                        while(loop){
+                                                                            pixelList = pixelListArray[Math.floor(pixelListArray.length * Math.random())]
+                                                                            pixelList = {
+                                                                                "result": "pixel",
+                                                                                "pixel": pixelList
+                                                                            }
+                                                                            colorFromPixel = getPixel(pixelList["pixel"]["x"],pixelList["pixel"]["y"]);
+                                                                            console.log(colorFromPixel)
+                                                                            var colors = [
+                                                                                [255,255,255],
+                                                                                [194,194,194],
+                                                                                [133,133,133],
+                                                                                [71,71,71],
+                                                                                [0,0,0],
+                                                                                [58,175,255],
+                                                                                [113,170,235],
+                                                                                [74,118,168],
+                                                                                [7,75,243],
+                                                                                [94,48,235],
+                                                                                [255,108,91],
+                                                                                [254,37,0],
+                                                                                [255,33,139],
+                                                                                [153,36,79],
+                                                                                [77,44,156],
+                                                                                [255,207,74],
+                                                                                [254,180,63],
+                                                                                [254,134,72],
+                                                                                [255,91,54],
+                                                                                [218,81,0],
+                                                                                [148,224,68],
+                                                                                [92,191,13],
+                                                                                [195,209,23],
+                                                                                [252,199,0],
+                                                                                [211,131,1]
+                                                                            ];
+
+                                                                            otkl = [];
+                                                                            Object.keys(colors).forEach(element => {
+                                                                                currcolor = colors[element];
+                                                                                otkl[element] = Math.abs(colorFromPixel[0] - currcolor[0]) + Math.abs(colorFromPixel[1] - currcolor[1]) + Math.abs(colorFromPixel[2] - currcolor[2])
+                                                                            });
+                                                                            let min = 0;
+                                                                            Object.keys(otkl).forEach(element => {
+                                                                                if(Math.abs(otkl[min]) > Math.abs(otkl[element])) min = element
+                                                                            });
+                                                                            if(min != pixelList["pixel"]["col"]) loop=false;
+                                                                        }
                                                                         document['getElementById']('lastPixel')['innerText'] = `x: ${pixelList['pixel']['x']}, y: ${pixelList['pixel']['y']}, col: ${pixelList['pixel']['col']}`;
                                                                     } else {
                                                                         return pixelList(_0x5e1e7e);
@@ -3270,6 +3335,7 @@
                                                                             (_0x34f1b1 = document['createElement']('canvas'))['width'] = _0x310bd3['width'];
                                                                             _0x34f1b1['height'] = _0x310bd3['height'];
                                                                             (_0x1d4813 = _0x34f1b1['getContext']('2d'))['drawImage'](_0x310bd3, 0x0, 0x0);
+                                                                            console.log(piska.toDataURL())
                                                                             _0x3345e4 = Object(_0x118fe8['i'])();
                                                                             _0x4accd9 = _0x310bd3['width'] * _0x310bd3['height'];
                                                                             _0x5d4360 = _0x248338 = 0x0;
@@ -11006,6 +11072,7 @@
                     if (_0x372ba2) {
                         if ('lAmBl' === 'lAmBl') {
                             _0x2a8849['clearRect'](0x0, 0x0, _0xaf2ec2, _0x162246);
+                            globalImage = _0x372ba2
                             _0x2a8849['drawImage'](_0x372ba2, _0x1cd915, _0x284512, Math['round'](_0x4ac6d6 * _0x4ec28f), Math['round'](_0x5857af * _0x4ec28f));
                             var _0x33f924 = _0x1c6ed3['freeezedPixels'],
                                 _0x20b66e = Date['now']();
