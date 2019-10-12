@@ -12,7 +12,6 @@ function getPixel(x,y) {
     canvas.height = globalImage.naturalHeight || globalImage.offsetHeight || globalImage.height;
     canvas.width = globalImage.naturalWidth || globalImage.offsetWidth || globalImage.width;
     context.drawImage(globalImage, 0, 0);
-    console.log(canvas.toDataURL());
     return context.getImageData(x, y, 1, 1).data;
     
 }
@@ -1981,15 +1980,16 @@ function getPixel(x,y) {
                                                                         var pixelList = xPos['responseText'];
                                                                         var pixelListArray = JSON['parse'](pixelList);
                                                                         let loop = true;
+                                                                        let loopLimit = 1000;
                                                                         //let loop = false;
-                                                                        while(loop){
+                                                                        while(loop && loopLimit>0){
+                                                                            loopLimit--;
                                                                             pixelList = pixelListArray[Math.floor(pixelListArray.length * Math.random())]
                                                                             pixelList = {
                                                                                 "result": "pixel",
                                                                                 "pixel": pixelList
                                                                             }
                                                                             colorFromPixel = getPixel(pixelList["pixel"]["x"],pixelList["pixel"]["y"]);
-                                                                            console.log(colorFromPixel)
                                                                             var colors = [
                                                                                 [255,255,255],
                                                                                 [194,194,194],
@@ -3335,7 +3335,6 @@ function getPixel(x,y) {
                                                                             (_0x34f1b1 = document['createElement']('canvas'))['width'] = _0x310bd3['width'];
                                                                             _0x34f1b1['height'] = _0x310bd3['height'];
                                                                             (_0x1d4813 = _0x34f1b1['getContext']('2d'))['drawImage'](_0x310bd3, 0x0, 0x0);
-                                                                            console.log(piska.toDataURL())
                                                                             _0x3345e4 = Object(_0x118fe8['i'])();
                                                                             _0x4accd9 = _0x310bd3['width'] * _0x310bd3['height'];
                                                                             _0x5d4360 = _0x248338 = 0x0;
