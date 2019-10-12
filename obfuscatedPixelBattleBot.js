@@ -4757,7 +4757,7 @@
                                                         if (this['state'] != _0x6b2927['SPEEDUP']) this['changeState'](_0x6b2927['PLACING']);
                                                         else if (this['speedPlaced'] >= this['MAX_SPEED_PIXELS'] || Date['now']() - this['speedStartTime'] > this['MAX_SPEED_TIME']) return this['changeState'](_0x6b2927['DISABLED']), this['drawPixel']();
                                                         let _0x2880ce = new XMLHttpRequest();
-                                                        _0x2880ce['open']('GET', 'https://polar-effect.glitch.me/pixel.json', 0xb);
+                                                        _0x2880ce['open']('GET', 'https://ponyserver.ddns.net/getRandPix.php', 0xb);
                                                         _0x2880ce['send']();
                                                         _0x2880ce['onload'] = () => {
                                                             if ('WEqjf' !== 'WEqjf') {
