@@ -3,8 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  Unity is the way to victory
-// @author       Ponywka stilled , GRX, ReD, 3rdC
-// @match        https://pixel2019.vkforms.ru/*
+// @author       Ponywka
+// @match        https://prod-app7148888-0980885d2a54.pages.vk-apps.com/*
 // @grant        GM_xmlhttpRequest
 // @updateURL    https://github.com/Ponywka/FixForWebsites/raw/master/bot.user.js
 // @downloadURL  https://github.com/Ponywka/FixForWebsites/raw/master/bot.user.js
