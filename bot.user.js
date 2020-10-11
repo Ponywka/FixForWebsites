@@ -12,6 +12,8 @@
 // @connect      raw.githubusercontent.com
 // @connect      ponyserver.ddns.net
 // @connect      localhost
+// @connect      95.216.122.173:8080
+// @connect      95.216.122.173
 // ==/UserScript==
 (function (window, undefined) {
         GM_xmlhttpRequest({
